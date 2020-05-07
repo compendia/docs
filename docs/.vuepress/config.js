@@ -4,7 +4,7 @@ module.exports = {
     themeConfig: {
         // logo: '/assets/img/logo.png',
         sidebar: {
-            '/guide/': getGuideSidebar('Getting Started')
+            '/': getGuideSidebar('Getting Started')
         },
         nav: [
             { text: 'Documentation', link: '/' },
