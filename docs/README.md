@@ -2,15 +2,15 @@
 home: true
 # heroImage: /hero.png
 # heroText: Hero Title
-tagline: Hero subtitle
+tagline: Open Databases for Apps
 actionText: Get Started →
 actionLink: /guide/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Distributed Databases
+  details: The Compendia network provides free databases for apps, smart contracts, and blockchains.
+- title: For Developers
+  details: Access all databases hosted on the Compendia network for free and integrate them with your apps and services.
+- title: For Contributors
+  details: Help maintain the network and get paid in Dia, Compendia's native cryptocurrency.
+footer: MIT Licensed | Copyright © 2020-present Compendia Ltd
 ---

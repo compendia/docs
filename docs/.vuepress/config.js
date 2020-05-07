@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Compendia',
+    title: 'Compendia Docs',
     description: 'Guides and FAQs for Compendia',
     themeConfig: {
         // logo: '/assets/img/logo.png',
@@ -7,9 +7,10 @@ module.exports = {
             '/guide/': getGuideSidebar('Getting Started')
         },
         nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Validator', link: '/validator/' },
-            { text: 'Node', link: '/node/' }
+            { text: 'Documentation', link: '/' },
+            { text: 'Offical Website', link: 'https://compendia.org' },
+            { text: 'Block Explorer', link: 'https://explorer.nos.dev' },
+            { text: 'Web Wallet', link: 'https://wallet.nos.dev' }
         ]
     }
 }
@@ -21,6 +22,7 @@ function getGuideSidebar(groupA) {
             collapsable: false,
             children: [
                 '',
+                'wallet',
                 'validator',
                 'node'
             ]
@@ -35,6 +37,7 @@ function getApiSidebar(groupA) {
             collapsable: false,
             children: [
                 '',
+                'wallet',
                 'validator',
                 'node'
             ]

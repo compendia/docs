@@ -1,4 +1,4 @@
-# Creating Nodes (Relays & Forgers)
+# Nodes (Relay & Forging)
 
 ## What are nodes?
 Your **Forging Node** is your server that will verify transactions and forge blocks. You must have a forging node in order to collect block rewards and transaction fees when you're in the Top 47.
@@ -59,7 +59,7 @@ Now we're going to set up core-control.
 1. Log in to your VPS using SSH: [Instructions for Windows](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/putty/) - [Instructions for macOS/Linux](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/openssh/).
 
 2. Once logged in, create a new user:
-```
+```bash
 adduser nos
 usermod -aG sudo nos
 su nos
@@ -69,17 +69,17 @@ Whenever you log in to your droplet, you can (and should always) log in with `su
 You can also configure it as your default user account when logging in with PuTTy or OpenSSH.
 
 3. Navigate to your `nos` user directory:
-```
+```bash
 cd ~
 ```
 Clone the core-control repository and navigate into it:
-```
+```bash
 git clone https://github.com/nos/core-control -b nos-devnet
 cd core-control
 ```
 
 Now we can install the blockchain node software (enter one of the two commands below based on your preference):
-```
+```bash
 # If you'd like core-control to set up everything, including a firewall:
 ./ccontrol.sh install core
 
@@ -100,13 +100,13 @@ The installation will take a few minutes.
 7. Click create and log in to your new node using OpenSSH or PuTTy. Now you should have two SSH sessions open: one for `relay-1` and another for `relay-2`.
 
 8. In `relay-2`, execute the following to log in as the `nos` user and go to the core-control directory:
-```
+```bash
 su nos
 cd ~/core-control
 ```
 
 9. Now execute the following commands in both `relay-1` and `relay-2`:
-```
+```bash
 ./ccontrol.sh start relay
 ./ccontrol.sh logs
 ```
@@ -134,7 +134,7 @@ ccontrol secret set {your secret here}
 *Replace `{your secret here}` with your validator's mnemonic key, without the `{ ... }` brackets.*
 
 5. Run the following:
-```
+```bash
 ccontrol start all
 ccontrol logs
 ```
@@ -148,6 +148,26 @@ If you're in the top 5, you'll earn 0.02 NOS extra per block!
 While you're not in the Top 47, all of your nodes will still sync the blockchain and help secure and increase the performance of the network.
 
 **Now it's time to advertise your validator to the community with a [Validator Announcement Thread!](https://nos.chat/t/how-to-write-a-validator-announcement-thread/35)**
+
+## Updating a node
+
+To update a node to the latest Compendia node software version, simply log in to the node as your **node user**, then enter:
+ ```bash
+ ccontrol update core
+ ```
+
+Some updates may require you to reset your configuration as well. This will be announced in any update announcement. The process to reset your config is:
+
+```bash
+# Stop the node
+ccontrol stop
+# Back up your custom plugins' config first, then reset your config:
+ccontrol config reset
+# If you're running a forging node:
+ccontrol secret set [your validator secret]
+# Start your node
+ccontrol start [relay/forger]
+```
 
 ## Tips
 

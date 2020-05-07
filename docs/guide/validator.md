@@ -1,8 +1,8 @@
-# Creating a Validator
+# Validator
 
 This guide will teach you how to register a validator and set up a validator profile using the Compendia Web Wallet.
 
-## Register a Validator
+## Registration
 
 *If you only want to launch relay nodes you can skip registering a validator.*
 

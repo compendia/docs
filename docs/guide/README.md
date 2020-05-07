@@ -4,31 +4,11 @@
 [[toc]]
 
 ## What is Compendia
-Compendia is a **decentralized network** where anyone can create and contribute to **open databases** in any category. Apps and services can use these databases within their service for free. 
+Compendia is a **decentralized network** where anyone can create and contribute to **open databases** in any categories. Apps and services can use these databases within their service for free. 
 
 Think of Compendia an *oracle network* (feeding data from the internet to a blockchain), but instead of serving *one piece* of data for *one* specific topic, the network can serve ***full databases*** relating to ***any topic***.
 
 You can also think of Compendia as the *Wikipedia of databases* for apps, services, blockchains, smart contracts, IoT, A.I. and more. 
-
-
-### Use Cases
-Any service that processes databases (meaning: almost any application on the internet) can benefit from free, open data.
-* **App store** where all apps are maintained by users and validators on Compendia.
-* **DeFi** (Decentralized Finance) application that pulls cryptocurrency price data from Compendia.
-* Video streaming service that displays trending videos uploaded to a video-database on Compendia. 
-* Training **Artificial Intelligence** by feeding it data from Compendia.
-* Wiki service that formats and displays encyclopedia-like data of a specific category.
-
-### Adoption
-We're still building the tools that allow developers to easily integrate the network's databases within their apps.
-
-The first application to integrate a Compendia database is the nOS multi-blockchain wallet app:
-
-|   Name                  | Description        | Database     |
-| ------------------------|:-------------------|:-------------| 
-| [nOS](https://nos.io)   | Crypto App Store   | crypto_apps  |
-
-*Interested in expanding this list? Keep up with our development on [Telegram](https://t.me/Compendia)!*
 
 ## Dia Coin
 
@@ -47,4 +27,40 @@ The services that use these databases can also use the validators' **rank** or *
 DIA is **not spent** on voting (apart from a small transaction fee when setting a vote). Instead, the voting power of a Dia wallet is calculated by its DIA **balance and stake**.
 
 ### Staking
- DIA holders can **lock** DIA in their wallet for a set period of time to increase their vote weight without extra costs. This is called **staking**. For example: 10,000 DIA staked for 3 months equals 50,000 Vote Power, instead of 10,000 Vote Power when left un-staked.
+ You can **lock** Dia in you wallet for a set period of time to increase you vote weight without extra costs. This is called **staking**. For example: 10,000 DIA staked for 3 months equals 50,000 Power, instead of 10,000 Power when left un-staked.
+
+### Earning Dia
+
+There are several ways to earn Dia:
+
+* **Stake and vote:** You can vote for a validator on Compendia and benefit from the services and rewards that they may offer to voters. Some validators choose to share a fixed percentage of DIA that they earn from block rewards. You can review the value proposals from validators by clicking on their names in the [Block Explorer](https://explorer.nos.io) and reading their descriptions.
+
+* **Become a validator:** As a validator you consistently earn block rewards. The top 47 validators earn 3.9 DIA, and the top 5 earn 4.2 DIA! 
+* **Contribute to databases:** Validators may reward people for contributing to their databases. Check out their descriptions to find out what you can do for a validator to get paid DIA.
+
+## Use Cases
+Any service that processes databases (meaning: almost any application on the internet) can benefit from free, open data. Examples:
+* **App store** where all apps are maintained by users and validators on Compendia.
+* **DeFi** (Decentralized Finance) application that pulls cryptocurrency price data from Compendia.
+* Video streaming service that displays trending videos uploaded to a video-database on Compendia. 
+* Training **Artificial Intelligence** by feeding it data from Compendia.
+* Wiki service that formats and displays encyclopedia-like data of a specific category.
+
+
+## Adoption
+We're still building the tools that allow applications to easily integrate with the network's databases.
+
+The first application to integrate with Compendia is the nOS multi-blockchain wallet app:
+
+|   Name                  | Description                 | Database     |
+| ------------------------|:----------------------------|:-------------| 
+| [nOS](https://nos.io)   | Crypto Wallet & App Store   | TBA          |
+
+*Interested in expanding this list? Join us on [Telegram](https://t.me/Compendia)!*
+
+## Links
+* [Website](https://compendia.org)
+* [Blockchain Software](https://github.com/nos/core)
+* [Block Explorer](https://explorer.nos.dev)
+* [Web Wallet](https://wallet.nos.dev)
+* [Documentation](https://docs.compendia.org)
