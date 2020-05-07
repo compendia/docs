@@ -1,0 +1,42 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files (x86)\Yarn\bin\yarn.js docs:dev
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Users\Dean\AppData\Roaming\nvm;D:\Program Files\nodejs;D:\Program Files\Git\cmd;C:\Program Files\cURL\bin;D:\Program Files (x86)\Yarn\bin\;C:\Program Files\Calibre2\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Users\Dean\.windows-build-tools\python27\;D:\Users\Dean\AppData\Roaming\nvm\v11.12.0\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\Program Files\nodejs\node_modules\windows-build-tools\node_modules\.bin;D:\Program Files\nodejs\node_modules\.bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\PuTTY\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Users\Dean\AppData\Roaming\nvm;D:\Program Files\nodejs;D:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\cURL\bin;D:\Program Files (x86)\Yarn\bin\;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\Program Files\Calibre2\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Users\Dean\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PhpStorm 2018.3.5\bin;C:\Users\Dean\AppData\Local\Yarn\bin;D:\laragon\bin\php\php-7.2.11-Win32-VC15-x64;C:\Users\Dean\AppData\Roaming\Composer\vendor\bin;D:\VS2019\neo-compiler-master\neon\bin\Debug\netcoreapp2.0\win10-x64;C:\Users\Dean\.dotnet\tools;D:\cli;C:\Users\Dean\AppData\Local\Microsoft\WindowsApps;D:\cli\typescript\bin;C:\Users\Dean\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\Web\compendia-docs\package.json: Unexpected token { in JSON at position 96
+      at JSON.parse (<anonymous>)
+      at D:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at D:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "compendia-docs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    {
+      "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
