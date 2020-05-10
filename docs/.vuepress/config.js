@@ -5,7 +5,7 @@ module.exports = {
         // logo: '/assets/img/logo.png',
         sidebar:
         {
-            '/': [
+            '/guide/': [
                 {
                     title: 'Guide',
                     collapsable: false,
@@ -40,7 +40,7 @@ module.exports = {
             ]
         },
         nav: [
-            { text: 'Guide', link: '/' },
+            { text: 'Guide', link: '/guide/' },
             { text: 'REST API', link: '/api/' },
             { text: 'Offical Website', link: 'https://compendia.org' },
             { text: 'Block Explorer', link: 'https://explorer.nos.dev' },
