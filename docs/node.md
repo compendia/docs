@@ -10,14 +10,14 @@ Your forging node will also need reliable relay nodes to connect with, so if you
 
 **Forging Node:**
 
-* Ubuntu 18.x
+* Ubuntu 20.x
 * 2 CPU
 * 8GB RAM
 * 50+ GB SSD (HDD)
 
 **Relay Node:**
 
-* Ubuntu 18.x
+* Ubuntu 20.x
 * 1 CPU
 * 3GB-4GB RAM
 * 50+ GB SSD (HDD)
@@ -117,7 +117,7 @@ You can run `ccontrol logs` to check the node logs.
 
 10. The relay node should now be live and working.
 
-## Create a Forging Node
+## Create a forging node
 
 We can use the snapshot we made when we set up our first node to quickly bootstrap the forger:
 

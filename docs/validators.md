@@ -1,6 +1,25 @@
-# Validator
+# Validators
 
-This guide will teach you how to register a validator and set up a validator profile using the Compendia Web Wallet.
+This guide will explain how to register a validator and set up a validator profile using the Compendia Web Wallet.
+
+## Introduction
+Compendia adopts a **Delegated Proof of Stake** - or **DPoS** - consensus model.
+
+DPoS enables high performance with fast block times, while governance of the network resides with the holders of the network’s native cryptocurrency: Dia.
+
+The nodes that seek to verify transactions and secure the network are called **validators**.
+
+Wallets with a Dia balance/stake can vote for validators.
+
+The top forty-seven validators (ranked by *vote balance*: the collective vote power of all wallets that voted for a validator) will forge new blocks.
+
+These *forging validators* receive a fixed block reward + transaction fees for every block that they forge.
+
+Validators that are not among the top forty-seven can still function and contribute to the network as relay nodes; servers that maintain a full copy of the blockchain and host API endpoints that serve blockchain data, increasing general availability and stability of the network.
+
+Non-forging validators can also still upload and share databases on Compendia.
+
+To operate a validator, you will need to run a [**forging node and relay nodes**](./node.html).
 
 ## Registration
 
@@ -25,13 +44,13 @@ If you're on the public testnet, you can click **Get coins** to get free coins (
 
 ## Create a Profile
 
-You can set a logo and a description for your validator. This data is hosted on the network using the IPFS protocol.
+You can set a logo and a description for your validator. This data is hosted on Compendia using the IPFS protocol.
 
 Logos and descriptions are visible on the wallet and explorer.
 
 1. Select your Validator by clicking on your yellow name on top of the Validators list.
-![image|690x243](./img/select-profile.png) 
-2. Click the **Update Profile** button.
+![image](./img/select-profile.png) 
+1. Click the **Update Profile** button.
 ![image](./img/update-profile.png) 
 3. In your description, enter a short value proposal for potential voters (if any), and click submit.
 4. Go to **Update Profile** again and upload your logo.

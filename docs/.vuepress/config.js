@@ -20,10 +20,12 @@ function getGuideSidebar(groupA) {
         {
             title: groupA,
             collapsable: false,
+            sidebarDepth: 1,
             children: [
                 '',
+                'economy',
                 'wallet',
-                'validator',
+                'validators',
                 'node'
             ]
         }
