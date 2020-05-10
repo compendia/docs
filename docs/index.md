@@ -13,7 +13,7 @@ You can also think of Compendia as the *Wikipedia of databases* for apps, servic
 | ---- | ------ | ------ |
 | Dia  | ₵      | DIA    |
 
-Dia is the Compendia blockchain's native cryptocurrency. Dia represent **Vote Power**  (or *Power*) on the network (1 Dia = 1 Power). With Vote Power, you can vote for **validators** (the *miners* of the network). 
+Dia is the Compendia blockchain's native cryptocurrency. Dia represents **Vote Power**  (or *Power*) on the network (1 Dia = 1 Power). With Vote Power, you can vote for **validators** (the *miners* of the network). 
 
 The top **forty-seven** validators on the network with the most votes *mine blocks*, which means they verify transactions and earn block rewards and transaction fees in return.
 

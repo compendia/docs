@@ -7,5 +7,5 @@ export default ({
     isServer // is this enhancement applied in server-rendering or client
 }) => {
     // ...apply enhancements to the app
-    router.addRoutes([{ path: "/", redirect: "/guide/" }]);
+    // router.addRoutes([{ path: "/", redirect: "/guide/" }]);
 }
