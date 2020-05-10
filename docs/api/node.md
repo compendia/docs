@@ -17,7 +17,7 @@ GET /api/v2/node/configuration
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/node/configuration
+curl https://api.nos.dev/api/v2/node/configuration
 ```
 
 ### Response
@@ -25,59 +25,81 @@ curl https://api.nos/dev/api/v2/node/configuration
 ```javascript
 {
   "data": {
-    "nethash": "578e820911f24e039733b45e4882b73e301f813a0d2c31330dafda84534ffa23",
-    "token": "DARK",
-    "symbol": "DѦ",
-    "explorer": "https://dexplorer.ark.io",
-    "version": 30,
+    "core": {
+      "version": "2.8.0"
+    },
+    "nethash": "e8c5243c53bd6809a52f0c6fdcfd2c9ee3410e0650243e82df5074d9ea6405ae",
+    "slip44": 1,
+    "wif": 170,
+    "token": "NOS",
+    "symbol": "◎",
+    "explorer": "https://explorer.nos.dev",
+    "version": 90,
     "ports": {
-      "@arkecosystem/core-p2p": 4000,
-      "@arkecosystem/core-api": 4003,
-      "@arkecosystem/core-json-rpc": 8080
+      "@arkecosystem/core-p2p": null,
+      "@arkecosystem/core-api": 4003
     },
     "constants": {
-      "height": 75600,
-      "reward": 200000000,
-      "activeDelegates": 51,
-      "blocktime": 8,
+      "height": 852815,
+      "p2p": {
+        "minimumVersions": [
+          "^2.8.0"
+        ]
+      },
+      "reward": 390000000,
+      "topDelegates": 5,
+      "topReward": 484000000,
+      "activeDelegates": 47,
+      "blocktime": 6,
       "block": {
         "version": 0,
-        "maxTransactions": 50,
-        "maxPayload": 2097152
+        "maxTransactions": 150,
+        "maxPayload": 6300000,
+        "acceptExpiredTransactionTimestamps": false,
+        "idFullSha256": true
       },
-      "epoch": "2017-03-21T13:00:00.000Z",
+      "epoch": "2020-03-03T20:30:00.000Z",
       "fees": {
         "staticFees": {
           "transfer": 10000000,
-          "secondSignature": 500000000,
-          "delegateRegistration": 2500000000,
+          "secondSignature": 50000000,
+          "delegateRegistration": 10000000000,
           "vote": 100000000,
-          "multiSignature": 500000000,
-          "ipfs": 0,
-          "timelockTransfer": 0,
-          "multiPayment": 0,
-          "delegateResignation": 0
+          "multiSignature": 10000000,
+          "multiPayment": 10000000,
+          "delegateResignation": 2500000000,
+          "stakeCreate": 0,
+          "stakeRedeem": 0,
+          "stakeCancel": 10000000,
+          "setFile": 0
+        },
+        "specialFees": {
+          "setFile": 10000000
         }
       },
-      "ignoreInvalidSecondSignatureField": false
+      "balancePower": 1,
+      "stakeLevels": {
+        "86400": 25,
+        "7889400": 50,
+        "15778800": 75,
+        "31557600": 100
+      },
+      "minimumStake": 10000000000,
+      "ipfs": {
+        "maxFileSize": {
+          "description": 30000,
+          "logo": 300000
+        }
+      },
+      "vendorFieldLength": 0,
+      "multiPaymentLimit": 64,
+      "aip11": true,
+      "graceEnd": 3600,
+      "powerUp": 82800
     },
     "transactionPool": {
-      "maxTransactionAge": 21600,
       "dynamicFees": {
-        "enabled": true,
-        "minFeePool": 1000,
-        "minFeeBroadcast": 1000,
-        "addonBytes": {
-          "transfer": 100,
-          "secondSignature": 250,
-          "delegateRegistration": 400000,
-          "vote": 100,
-          "multiSignature": 500,
-          "ipfs": 250,
-          "timelockTransfer": 500,
-          "multiPayment": 500,
-          "delegateResignation": 400000
-        }
+        "enabled": false
       }
     }
   }
@@ -97,7 +119,7 @@ GET /api/v2/node/configuration/crypto
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/node/configuration/crypto
+curl https://api.nos.dev/api/v2/node/configuration/crypto
 ```
 
 ### Response
@@ -283,7 +305,7 @@ GET /api/v2/node/fees
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/node/fees
+curl https://api.nos.dev/api/v2/node/fees
 ```
 
 ### Query Parameters
@@ -333,7 +355,7 @@ GET /api/v2/node/status
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/node/status
+curl https://api.nos.dev/api/v2/node/status
 ```
 
 ### Response
@@ -361,7 +383,7 @@ GET /api/v2/node/syncing
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/node/syncing
+curl https://api.nos.dev/api/v2/node/syncing
 ```
 
 ### Response

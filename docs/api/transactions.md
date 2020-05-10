@@ -275,7 +275,7 @@ POST /api/transactions/search
 curl -H "Content-Type: application/json" \
   -X POST \
   -d '{ "asset": { "ipfs": "QmT2yUde9NFsX6J7y97VGu8CeA5tLEshu5V7PVHeRqUcDA" } }' \
-  https://api.nos/dev/api/v2/transactions/search | jq
+  https://api.nos.dev/api/v2/transactions/search | jq
 ```
 
 ### Query Parameters
@@ -349,7 +349,6 @@ curl -H "Content-Type: application/json" \
 
 ## Get Transaction Types
 
-The transaction types are network specific. ARK currently supports eight different types, but BridgeChains may define more or less if needed for their business purpose.
 
 ### Endpoint
 

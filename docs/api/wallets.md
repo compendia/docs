@@ -15,7 +15,7 @@ GET /api/v2/wallets
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets
+curl https://api.nos.dev/api/v2/wallets
 ```
 
 ### Query Parameters
@@ -145,7 +145,7 @@ GET /api/v2/wallets/{id}
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD
+curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD
 ```
 
 ### Path Parameters
@@ -189,7 +189,7 @@ GET /api/v2/wallets/{id}/transactions
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/transactions
+curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/transactions
 ```
 
 ### Path Parameters
@@ -289,7 +289,7 @@ GET /api/v2/wallets/{id}/transactions/received
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/transactions/received
+curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/transactions/received
 ```
 
 ### Path Parameters
@@ -395,7 +395,7 @@ GET /api/v2/wallets/{id}/transactions/sent
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/transactions/sent
+curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/transactions/sent
 ```
 
 ### Path Parameters
@@ -497,7 +497,7 @@ GET /api/v2/wallets/{id}/votes
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets/DEz1Mr4uJ7NaiufwKEj28atCRPTmsUqh9t/votes
+curl https://api.nos.dev/api/v2/wallets/DEz1Mr4uJ7NaiufwKEj28atCRPTmsUqh9t/votes
 ```
 
 ### Path Parameters
@@ -586,7 +586,7 @@ curl https://api.nos/dev/api/v2/wallets/DEz1Mr4uJ7NaiufwKEj28atCRPTmsUqh9t/votes
 
 ## List All Top Wallets
 
-Sort the wallets by their balance. Most top wallets belong to exchanges and the frozen remainder from the ARK ICO.
+Sort the wallets by their balance.
 
 ### Endpoint
 
@@ -731,7 +731,7 @@ GET /api/v2/wallets/{id}/locks
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/wallets/DEz1Mr4uJ7NaiufwKEj28atCRPTmsUqh9t/locks
+curl https://api.nos.dev/api/v2/wallets/DEz1Mr4uJ7NaiufwKEj28atCRPTmsUqh9t/locks
 ```
 
 ### Path Parameters

@@ -38,7 +38,7 @@ GET /api/v2/blocks
 ### Examples
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks?limit=2
+curl https://api.nos.dev/api/v2/blocks?limit=2
 ```
 
 ```javascript
@@ -115,7 +115,7 @@ curl https://api.nos/dev/api/v2/blocks?limit=2
 ```
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks?height=7000042
+curl https://api.nos.dev/api/v2/blocks?height=7000042
 ```
 
 ```javascript
@@ -174,7 +174,7 @@ curl https://api.nos/dev/api/v2/blocks?height=7000042
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks/first
+curl https://api.nos.dev/api/v2/blocks/first
 ```
 
 ### Response
@@ -223,7 +223,7 @@ curl https://api.nos/dev/api/v2/blocks/first
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks/last
+curl https://api.nos.dev/api/v2/blocks/last
 ```
 
 ### Response
@@ -282,11 +282,11 @@ GET /api/v2/blocks/{id|height}
 ### Examples
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks/15447090855222023348
+curl https://api.nos.dev/api/v2/blocks/15447090855222023348
 ```
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks/7000042
+curl https://api.nos.dev/api/v2/blocks/7000042
 ```
 
 ```javascript
@@ -360,7 +360,7 @@ GET /api/v2/blocks/{id|height}/transactions
 ### Examples
 
 ```bash
-curl https://api.nos/dev/api/v2/blocks/12079944220667996670/transactions
+curl https://api.nos.dev/api/v2/blocks/12079944220667996670/transactions
 ```
 
 ```javascript
@@ -468,7 +468,7 @@ POST /api/blocks/search
 ### Examples
 
 ```bash
-curl --data 'numberOfTransactions={ "from": 100, "to": 110 }' --data 'timestamp={ "from": 60000000 }' https://api.nos/dev/api/v2/blocks/search?limit=2
+curl --data 'numberOfTransactions={ "from": 100, "to": 110 }' --data 'timestamp={ "from": 60000000 }' https://api.nos.dev/api/v2/blocks/search?limit=2
 ```
 
 ```javascript

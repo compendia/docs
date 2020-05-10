@@ -1,8 +1,8 @@
-# Delegates
+# Delegates (Validators)
 
-Delegates are regular wallets \(addresses\) which have registered themselves eligible to become a Delegate by a [registration transaction](https://github.com/ArkEcosystem/gitbooks-api/tree/9815499ca52e615b8de858160da915cd960e6ea3/introduction/ark/understanding-transactions-and-block-propagation.html#delegate-registration). If a Delegate is amongst the top 51 highest voted \(by staked ARK\), it may run a forging Node, which produces a block once every 6.8 minutes, awarding the Delegate two ARK + the transaction fees.
+Delegates are regular wallets \(addresses\) which have registered themselves eligible to become a Delegate by a registration transaction. If a Delegate is amongst the top 47 highest voted, it may run a forging Node, which produces a block once every  minutes, awarding the Delegate with Dia and transaction fees.
 
-Genesis Delegates are the initial, virtualized Delegates. They were not registered nor voted in, and in the ARK `mainnet` has been replaced by actual Delegates a long time ago.
+Genesis Delegates are the initial, virtualized Delegates. They were not registered nor voted in, and in the Compendia `mainnet` has been replaced by actual Delegates a long time ago.
 
 ## List All Delegates
 
@@ -36,7 +36,7 @@ GET /api/v2/delegates
 ### Examples
 
 ```bash
-curl https://api.nos/dev/api/v2/delegates
+curl https://api.nos.dev/api/v2/delegates
 ```
 
 ```javascript
@@ -87,7 +87,7 @@ curl https://api.nos/dev/api/v2/delegates
 ```
 
 ```bash
-curl "https://api.nos/dev/api/v2/delegates?page=5&limit=2"
+curl "https://api.nos.dev/api/v2/delegates?page=5&limit=2"
 ```
 
 ```javascript
@@ -184,15 +184,15 @@ GET /api/v2/delegates/{username|address|publicKey}
 ### Examples
 
 ```bash
-curl https://api.nos/dev/api/v2/delegates/boldninja
+curl https://api.nos.dev/api/v2/delegates/boldninja
 ```
 
 ```bash
-curl https://api.nos/dev/api/v2/delegates/ARMy9u1XvrZ124JzQq3oeJpjmBEnYkyU7D
+curl https://api.nos.dev/api/v2/delegates/ARMy9u1XvrZ124JzQq3oeJpjmBEnYkyU7D
 ```
 
 ```bash
-curl https://api.nos/dev/api/v2/delegates/035217d8ff31d78992e0821667fed6d9298d2b923cd63b650e894e0bf11a0a6d7a
+curl https://api.nos.dev/api/v2/delegates/035217d8ff31d78992e0821667fed6d9298d2b923cd63b650e894e0bf11a0a6d7a
 ```
 
 ```javascript
@@ -269,7 +269,7 @@ GET /api/v2/delegates/{username|address|publicKey}/blocks
 ### Examples
 
 ```bash
-curl "https://api.nos/dev/api/v2/delegates/ALLZ3TQKTaHm2Bte4SrXL9C5cS8ZovqFfZ/blocks?page=5&limit=2"
+curl "https://api.nos.dev/api/v2/delegates/ALLZ3TQKTaHm2Bte4SrXL9C5cS8ZovqFfZ/blocks?page=5&limit=2"
 ```
 
 ```javascript
@@ -380,7 +380,7 @@ GET /api/v2/delegates/{username|address|publicKey}/voters
 ### Examples
 
 ```bash
-curl "https://api.nos/dev/api/v2/delegates/ALLZ3TQKTaHm2Bte4SrXL9C5cS8ZovqFfZ/voters?page=1&limit=1"
+curl "https://api.nos.dev/api/v2/delegates/ALLZ3TQKTaHm2Bte4SrXL9C5cS8ZovqFfZ/voters?page=1&limit=1"
 ```
 
 ```javascript
@@ -456,7 +456,7 @@ POST /api/delegates/search
 ### Examples
 
 ```bash
-curl --data 'producedBlocks={ "from": 41100 }' https://api.nos/dev/api/v2/delegates/search
+curl --data 'producedBlocks={ "from": 41100 }' https://api.nos.dev/api/v2/delegates/search
 ```
 
 ```javascript

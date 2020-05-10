@@ -17,7 +17,7 @@
 ### Example
 
 ```
-curl https://api.nos/dev/api/v2/rounds/5000/delegates
+curl https://api.nos.dev/api/v2/rounds/5000/delegates
 ```
 
 ### Response

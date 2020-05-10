@@ -15,7 +15,7 @@ GET /api/v2/peers
 ### Example
 
 ```bash
-curl https://api.nos/dev/api/v2/peers
+curl https://api.nos.dev/api/v2/peers
 ```
 
 ### Query Parameters

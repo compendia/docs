@@ -11,7 +11,7 @@ GET /api/v2/blockchain
 ## Examples
 
 ```bash
-curl https://api.nos/dev/api/v2/blockchain
+curl https://api.nos.dev/api/v2/blockchain
 ```
 
 ```javascript
