@@ -37,9 +37,7 @@ To find out more, see the [Economy - Staking](./economy.html#staking) section.
 
 ### Earning Dia
 
-Dia is available on several exchanges.
-
-There are also ways that you can **earn Dia** by participating in the ecosystem:
+Dia is available on several exchanges, but there are also ways that you can **earn Dia** by participating in the ecosystem:
 
 * **Stake and vote:** You can vote for a validator on Compendia and benefit from the services and rewards that they may offer to voters. Some validators choose to share a fixed percentage of Dia that they earn from block rewards with their voters. You can review the value proposals from validators by clicking on their names in the [Block Explorer](https://explorer.nos.io) and reading their descriptions.
 
@@ -79,3 +77,4 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 * [Block Explorer](https://explorer.nos.dev)
 * [Web Wallet](https://wallet.nos.dev)
 * [Documentation](https://docs.compendia.org)
+* [REST API Documentation](/api/)
