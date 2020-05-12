@@ -18,20 +18,20 @@ GET /api/v2/delegates
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it orders delegates. | No |
-| type | resigned \| never-forged | ... | No |
-| address | string | ... | No |
-| publicKey | string | ... | No |
-| secondPublicKey | string | ... | No |
-| vote | string | ... | No |
-| username | string | ... | No |
-| balance | int | ... | No |
-| voteBalance | int | ... | No |
-| producedBlocks | int | ... | No |
+| Name             |           Type            | Description                                                                     | Required |
+| :--------------- | :----------------------: | :------------------------------------------------------------------------------------- | :---------: |
+| page             |            int             | The number of the page that will be returned. |       No       |
+| limit           |            int             | The number of resources per page.                         |       No       |
+| orderBy         |          string          | Type by which it orders delegates.            |    No    |
+| type            | resigned \| never-forged | ...                                           |    No    |
+| address         |          string          | ...                                           |    No    |
+| publicKey       |          string          | ...                                           |    No    |
+| secondPublicKey |          string          | ...                                           |    No    |
+| vote            |          string          | ...                                           |    No    |
+| username        |          string          | ...                                           |    No    |
+| balance         |           int            | ...                                           |    No    |
+| voteBalance     |           int            | ...                                           |    No    |
+| producedBlocks  |           int            | ...                                           |    No    |
 
 ### Examples
 
@@ -177,9 +177,9 @@ GET /api/v2/delegates/{username|address|publicKey}
 
 ### Path Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| {username\|address\|publicKey} | string | The identifier of the delegate to be retrieved. | Yes |
+| Name                                                                               |    Type    | Description                                                                                                             | Required |
+| :--------------------------------------------------------------------------------- | :------: | :------------------------------------------------------------------------------------------------------------------------------------ | :------------: |
+| {username\|address\|publicKey} | string | The identifier of the delegate to be retrieved. |       Yes          |
 
 ### Examples
 
@@ -247,24 +247,24 @@ GET /api/v2/delegates/{username|address|publicKey}/blocks
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it orderers blocks. | No |
-| id | string | ... | No |
-| version | int | ... | No |
-| timestamp | int | ... | No |
-| previousBlock | string | ... | No |
-| height | int | ... | No |
-| numberOfTransactions | int | ... | No |
-| totalAmount | int | ... | No |
-| totalFee | int | ... | No |
-| reward | int | ... | No |
-| payloadLength | int | ... | No |
-| payloadHash | string | ... | No |
-| generatorPublicKey | string | ... | No |
-| blockSignature | string | ... | No |
+| Name                 |  Type  | Description                                   | Required |
+| :------------------- | :----: | :-------------------------------------------- | :------: |
+| page                 |  int   | The number of the page that will be returned. |    No    |
+| limit                |  int   | The number of resources per page.             |    No    |
+| orderBy              | string | Type by which it orderers blocks.             |    No    |
+| id                   | string | ...                                           |    No    |
+| version              |  int   | ...                                           |    No    |
+| timestamp            |  int   | ...                                           |    No    |
+| previousBlock        | string | ...                                           |    No    |
+| height               |  int   | ...                                           |    No    |
+| numberOfTransactions |  int   | ...                                           |    No    |
+| totalAmount          |  int   | ...                                           |    No    |
+| totalFee             |  int   | ...                                           |    No    |
+| reward               |  int   | ...                                           |    No    |
+| payloadLength        |  int   | ...                                           |    No    |
+| payloadHash          | string | ...                                           |    No    |
+| generatorPublicKey   | string | ...                                           |    No    |
+| blockSignature       | string | ...                                           |    No    |
 
 ### Examples
 
@@ -363,19 +363,19 @@ GET /api/v2/delegates/{username|address|publicKey}/voters
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it order voters. | No |
-| address | string | ... | No |
-| publicKey | string | ... | No |
-| secondPublicKey | string | ... | No |
-| vote | string | ... | No |
-| username | string | ... | No |
-| balance | int | ... | No |
-| voteBalance | int | ... | No |
-| producedBlocks | int | ... | No |
+| Name            |  Type  | Description                                   | Required |
+| :-------------- | :----: | :-------------------------------------------- | :------: |
+| page            |  int   | The number of the page that will be returned. |    No    |
+| limit           |  int   | The number of resources per page.             |    No    |
+| orderBy         | string | Type by which it order voters.                |    No    |
+| address         | string | ...                                           |    No    |
+| publicKey       | string | ...                                           |    No    |
+| secondPublicKey | string | ...                                           |    No    |
+| vote            | string | ...                                           |    No    |
+| username        | string | ...                                           |    No    |
+| balance         |  int   | ...                                           |    No    |
+| voteBalance     |  int   | ...                                           |    No    |
+| producedBlocks  |  int   | ...                                           |    No    |
 
 ### Examples
 
@@ -428,30 +428,30 @@ POST /api/delegates/search
 
 ### Body Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| address | string | The address of the delegate to be retrieved. | No |
-| publicKey | string | The public key of the delegate to be retrieved. | No |
-| username | string | The username of the delegate to be retrieved. | No |
-| usernames | array | The usernames of the delegates to be retrieved. | No |
-| approval | object | The approval rate of the delegates to be retrieved. | No |
-| approval.from | float | The lower limit of the approval rate. | No |
-| approval.to | float | The upper limit of the approval rate. | No |
-| forgedFees | object | The forged fees of the delegates to be retrieved. | No |
-| forgedFees.from | int | The lower limit of the forged fees. | No |
-| forgedFees.to | int | The upper limit of the forged fees. | No |
-| forgedRewards | object | The forged rewards of the delegates to be retrieved. | No |
-| forgedRewards.from | int | The lower limit of the forged rewards. | No |
-| forgedRewards.to | int | The upper limit of the forged rewards. | No |
-| forgedTotal | object | The forged total of the delegates to be retrieved. | No |
-| forgedTotal.from | int | The lower limit of the forged total. | No |
-| forgedTotal.to | int | The upper limit of the forged total. | No |
-| producedBlocks | object | The produced blocks count of the delegates to be retrieved. | No |
-| producedBlocks.from | int | The lower limit of the produced blocks count. | No |
-| producedBlocks.to | int | The upper limit of the produced blocks count. | No |
-| voteBalance | object | The vote balance of the delegates to be retrieved. | No |
-| voteBalance.from | int | The lower limit of the vote balance. | No |
-| voteBalance.to | int | The upper limit of the vote balance. | No |
+| Name                |  Type  | Description                                                 | Required |
+| :------------------ | :----: | :---------------------------------------------------------- | :------: |
+| address             | string | The address of the delegate to be retrieved.                |    No    |
+| publicKey           | string | The public key of the delegate to be retrieved.             |    No    |
+| username            | string | The username of the delegate to be retrieved.               |    No    |
+| usernames           | array  | The usernames of the delegates to be retrieved.             |    No    |
+| approval            | object | The approval rate of the delegates to be retrieved.         |    No    |
+| approval.from       | float  | The lower limit of the approval rate.                       |    No    |
+| approval.to         | float  | The upper limit of the approval rate.                       |    No    |
+| forgedFees          | object | The forged fees of the delegates to be retrieved.           |    No    |
+| forgedFees.from     |  int   | The lower limit of the forged fees.                         |    No    |
+| forgedFees.to       |  int   | The upper limit of the forged fees.                         |    No    |
+| forgedRewards       | object | The forged rewards of the delegates to be retrieved.        |    No    |
+| forgedRewards.from  |  int   | The lower limit of the forged rewards.                      |    No    |
+| forgedRewards.to    |  int   | The upper limit of the forged rewards.                      |    No    |
+| forgedTotal         | object | The forged total of the delegates to be retrieved.          |    No    |
+| forgedTotal.from    |  int   | The lower limit of the forged total.                        |    No    |
+| forgedTotal.to      |  int   | The upper limit of the forged total.                        |    No    |
+| producedBlocks      | object | The produced blocks count of the delegates to be retrieved. |    No    |
+| producedBlocks.from |  int   | The lower limit of the produced blocks count.               |    No    |
+| producedBlocks.to   |  int   | The upper limit of the produced blocks count.               |    No    |
+| voteBalance         | object | The vote balance of the delegates to be retrieved.          |    No    |
+| voteBalance.from    |  int   | The lower limit of the vote balance.                        |    No    |
+| voteBalance.to      |  int   | The upper limit of the vote balance.                        |    No    |
 
 ### Examples
 

@@ -20,19 +20,19 @@ curl https://api.nos.dev/api/v2/wallets
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it orders wallets. | No |
-| address | string | ... | No |
-| publicKey | string | ... | No |
-| senderPublicKey | string | ... | No |
-| vote | string | ... | No |
-| username | string | ... | No |
-| balance | int | ... | No |
-| voteBalance | int | ... | No |
-| producedBlocks | int | ... | No |
+| Name            |  Type  | Description                                   | Required |
+| :-------------- | :----: | :-------------------------------------------- | :------: |
+| page            |  int   | The number of the page that will be returned. |    No    |
+| limit           |  int   | The number of resources per page.             |    No    |
+| orderBy         | string | Type by which it orders wallets.              |    No    |
+| address         | string | ...                                           |    No    |
+| publicKey       | string | ...                                           |    No    |
+| senderPublicKey | string | ...                                           |    No    |
+| vote            | string | ...                                           |    No    |
+| username        | string | ...                                           |    No    |
+| balance         |  int   | ...                                           |    No    |
+| voteBalance     |  int   | ...                                           |    No    |
+| producedBlocks  |  int   | ...                                           |    No    |
 
 ### Response
 
@@ -150,29 +150,87 @@ curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD
 
 ### Path Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| id | string | The identifier of the wallet to be retrieved. | Yes |
+| Name |  Type  | Description                                   | Required |
+| :--- | :----: | :-------------------------------------------- | :------: |
+| id   | string | The identifier of the wallet to be retrieved. |   Yes    |
 
 ### Response
 
 ```javascript
 {
-    "data": {
-        "address": "D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD",
-        "publicKey": "03df6cd794a7d404db4f1b25816d8976d0e72c5177d17ac9b19a92703b62cdbbbc",
-        "nonce": "208",
-        "balance": "7919999400",
-        "attributes": {
-            "htlc": {
-                "locks": {},
-                "lockedBalance": "0"
-            }
+  "data": {
+    "address": "dLZ9xdvnFtmWaaAtGbMYWFnht2aDwcuQZk",
+    "publicKey": "027943d3a546d96b64dc59029fc61c09badd987a32bea276a2c083a0695e09f774",
+    "nonce": "75",
+    "balance": "390404190022",
+    "gracedBalance": "0",
+    "isDelegate": true,
+    "isResigned": false,
+    "vote": "027943d3a546d96b64dc59029fc61c09badd987a32bea276a2c083a0695e09f774",
+    "stakePower": "53250000000000",
+    "power": "53640404190022",
+    "stakes": {
+      "70d7cb7e407c88ff5cb36a84e4146d802a95447fde7cb9784d64407daf3a4c01": {
+        "status": "active",
+        "amount": "100000000000",
+        "duration": 31557600,
+        "power": "1000000000000",
+        "timestamps": {
+          "created": 1583393427,
+          "graceEnd": 1583393427,
+          "powerUp": 1583393427,
+          "redeemable": 1614951027
+        }
+      },
+      "646cd784baf34782629fff5aefac3f154181289add03aa26376aaa388e142fc3": {
+        "status": "active",
+        "amount": "225000000000",
+        "duration": 31557600,
+        "power": "2250000000000",
+        "timestamps": {
+          "created": 1583510777,
+          "graceEnd": 1583510777,
+          "powerUp": 1583510777,
+          "redeemable": 1615068377
+        }
+      }
+    },
+    "files": {
+      "logo": "QmRvAoVym2Be5dX8J3M2bRednJvmRyoXqAgqEr6wft8x5T",
+      "description": "QmWP1RjgbhnpyXX8TE8fGcFbhS34RJRBcpQB7yZZMo1vy1"
+    },
+    "attributes": {
+      "delegate": {
+        "username": "the_bobbie_bunch",
+        "voteBalance": "207073958120000",
+        "forgedFees": "4805000000",
+        "removedFees": "5575000000",
+        "forgedRewards": "9597462000000",
+        "producedBlocks": 21047,
+        "rank": 6,
+        "lastBlock": {
+          "version": 0,
+          "timestamp": 1589291904,
+          "height": 996766,
+          "previousBlockHex": "c352af36c7cb0fb575e5f03f60253da422d83b64bc749fea929ff36eb7a42a79",
+          "previousBlock": "c352af36c7cb0fb575e5f03f60253da422d83b64bc749fea929ff36eb7a42a79",
+          "numberOfTransactions": 0,
+          "totalAmount": "0",
+          "totalFee": "0",
+          "removedFee": "0",
+          "reward": "390000000",
+          "payloadLength": 0,
+          "payloadHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "generatorPublicKey": "027943d3a546d96b64dc59029fc61c09badd987a32bea276a2c083a0695e09f774",
+          "blockSignature": "3045022100acd3ceef47591f13d5d4d4e2d58c3d41306331caa9103140c85c16ebb29b51b6022027387eb3f8026ec7ad3370be299d7ec324ff61dcca37613673e075024d932525",
+          "idHex": "61792146ca3da1d91cd2678b51653f6e12552d961d37aa2dabd6a26651cecdd7",
+          "id": "61792146ca3da1d91cd2678b51653f6e12552d961d37aa2dabd6a26651cecdd7"
         },
-        "lockedBalance": "0",
-        "isDelegate": false,
-        "isResigned": false
-    }
+        "round": 21209
+      }
+    },
+    "username": "the_bobbie_bunch"
+  }
 }
 ```
 
@@ -194,26 +252,26 @@ curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/trans
 
 ### Path Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| id | string | The identifier of the wallet to be retrieved. | Yes |
+| Name |      Type      | Description                                                                                                                                                                           | Required |
+| :--- | :--------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: |
+| id           | string | The identifier of the wallet to be retrieved. |           Yes                |
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| id | string | ... | No |
-| blockId | string | ... | No |
-| type | int | ... | No |
-| typeGroup | int | ... | No |
-| version | int | ... | No |
-| timestamp | int | ... | No |
-| nonce | int | ... | No |
-| amount | int | ... | No |
-| fee | int | ... | No |
-| vendorField | string | ... | No |
+| Name        |  Type  | Description                                   | Required |
+| :---------- | :----: | :-------------------------------------------- | :------: |
+| page        |  int   | The number of the page that will be returned. |    No    |
+| limit       |  int   | The number of resources per page.             |    No    |
+| id          | string | ...                                           |    No    |
+| blockId     | string | ...                                           |    No    |
+| type        |  int   | ...                                           |    No    |
+| typeGroup   |  int   | ...                                           |    No    |
+| version     |  int   | ...                                           |    No    |
+| timestamp   |  int   | ...                                           |    No    |
+| nonce       |  int   | ...                                           |    No    |
+| amount      |  int   | ...                                           |    No    |
+| fee         |  int   | ...                                           |    No    |
+| vendorField | string | ...                                           |    No    |
 
 ### Response
 
@@ -300,22 +358,22 @@ curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/trans
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| id | string | ... | No |
-| blockId | string | ... | No |
-| type | int | ... | No |
-| typeGroup | int | ... | No |
-| version | int | ... | No |
-| senderPublicKey | string | ... | No |
-| senderId | string | ... | No |
-| timestamp | int | ... | No |
-| nonce | int | ... | No |
-| amount | int | ... | No |
-| fee | int | ... | No |
-| vendorField | string | ... | No |
+| Name            |  Type  | Description                                   | Required |
+| :-------------- | :----: | :-------------------------------------------- | :------: |
+| page            |  int   | The number of the page that will be returned. |    No    |
+| limit           |  int   | The number of resources per page.             |    No    |
+| id              | string | ...                                           |    No    |
+| blockId         | string | ...                                           |    No    |
+| type            |  int   | ...                                           |    No    |
+| typeGroup       |  int   | ...                                           |    No    |
+| version         |  int   | ...                                           |    No    |
+| senderPublicKey | string | ...                                           |    No    |
+| senderId        | string | ...                                           |    No    |
+| timestamp       |  int   | ...                                           |    No    |
+| nonce           |  int   | ...                                           |    No    |
+| amount          |  int   | ...                                           |    No    |
+| fee             |  int   | ...                                           |    No    |
+| vendorField     | string | ...                                           |    No    |
 
 ### Response
 
@@ -406,22 +464,22 @@ curl https://api.nos.dev/api/v2/wallets/D8rr7B1d6TL6pf14LgMz4sKp1VBMs6YUYD/trans
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it orders wallets. | No |
-| id | string | ... | No |
-| blockId | string | ... | No |
-| type | int | ... | No |
-| typeGroup | int | ... | No |
-| version | int | ... | No |
-| recipientId | string | ... | No |
-| timestamp | int | ... | No |
-| nonce | int | ... | No |
-| amount | int | ... | No |
-| fee | int | ... | No |
-| vendorField | string | ... | No |
+| Name        |  Type  | Description                                   | Required |
+| :---------- | :----: | :-------------------------------------------- | :------: |
+| page        |  int   | The number of the page that will be returned. |    No    |
+| limit       |  int   | The number of resources per page.             |    No    |
+| orderBy     | string | Type by which it orders wallets.              |    No    |
+| id          | string | ...                                           |    No    |
+| blockId     | string | ...                                           |    No    |
+| type        |  int   | ...                                           |    No    |
+| typeGroup   |  int   | ...                                           |    No    |
+| version     |  int   | ...                                           |    No    |
+| recipientId | string | ...                                           |    No    |
+| timestamp   |  int   | ...                                           |    No    |
+| nonce       |  int   | ...                                           |    No    |
+| amount      |  int   | ...                                           |    No    |
+| fee         |  int   | ...                                           |    No    |
+| vendorField | string | ...                                           |    No    |
 
 ### Response
 
@@ -508,10 +566,10 @@ curl https://api.nos.dev/api/v2/wallets/DEz1Mr4uJ7NaiufwKEj28atCRPTmsUqh9t/votes
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
+| Name     | Type     | Description                                                                                                                                         | Required |
+| :------- | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------: |
+| page     |     int     | The number of the page that will be returned. |             No             |
+| limit |     int     | The number of resources per page.                                                 |             No             |
 
 ### Response
 
@@ -679,19 +737,19 @@ POST /api/wallets/search
 
 ### Body Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| address | string | ... | No |
-| publicKey | string | ... | No |
-| secondPublicKey | string | ... | No |
-| vote | string | ... | No |
-| username | string | ... | No |
-| balance | object | ... | No |
-| balance.from | int | ... | No |
-| balance.to | int | ... | No |
-| votebalance | object | ... | No |
-| votebalance.from | int | ... | No |
-| votebalance.to | int | ... | No |
+| Name             |  Type  | Description | Required |
+| :--------------- | :----: | :---------- | :------: |
+| address          | string | ...         |    No    |
+| publicKey        | string | ...         |    No    |
+| secondPublicKey  | string | ...         |    No    |
+| vote             | string | ...         |    No    |
+| username         | string | ...         |    No    |
+| balance          | object | ...         |    No    |
+| balance.from     |  int   | ...         |    No    |
+| balance.to       |  int   | ...         |    No    |
+| votebalance      | object | ...         |    No    |
+| votebalance.from |  int   | ...         |    No    |
+| votebalance.to   |  int   | ...         |    No    |
 
 ### Response
 

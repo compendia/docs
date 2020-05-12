@@ -20,15 +20,15 @@ curl https://api.nos.dev/api/v2/peers
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| port | int | The port by which the resources will be filtered. | No |
-| status | string | The status by which the resources will be filtered. | No |
-| os | string | The operating system by which the resources will be filtered. | No |
-| version | string | The node version by which the resources will be filtered. | No |
-| orderBy | string | The column by which the resources will be sorted. | No |
+| Name    |  Type  | Description                                                   | Required |
+| :------ | :----: | :------------------------------------------------------------ | :------: |
+| page    |  int   | The number of the page that will be returned.                 |    No    |
+| limit   |  int   | The number of resources per page.                             |    No    |
+| port    |  int   | The port by which the resources will be filtered.             |    No    |
+| status  | string | The status by which the resources will be filtered.           |    No    |
+| os      | string | The operating system by which the resources will be filtered. |    No    |
+| version | string | The node version by which the resources will be filtered.     |    No    |
+| orderBy | string | The column by which the resources will be sorted.             |    No    |
 
 ### Response
 
@@ -70,9 +70,9 @@ GET /api/v2/peers/{ip}
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| ip | string | The IP address of the peer to be retrieved. | Yes |
+| Name |  Type  | Description                                 | Required |
+| :--- | :----: | :------------------------------------------ | :------: |
+| ip   | string | The IP address of the peer to be retrieved. |   Yes    |
 
 ### Response
 

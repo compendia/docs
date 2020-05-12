@@ -16,24 +16,24 @@ GET /api/v2/blocks
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it orders blocks. | No |
-| id | string | The identifier of the block to be retrieved. | No |
-| version | int | ... | No |
-| timestamp | int | ... | No |
-| previousBlock | string | ... | No |
-| height | int | The height of the block to be retrieved. | No |
-| numberOfTransactions | int | ... | No |
-| totalAmount | int | ... | No |
-| totalFee | int | ... | No |
-| reward | int | ... | No |
-| payloadLength | int | ... | No |
-| payloadHash | int | ... | No |
-| generatorPublicKey | string | ... | No |
-| blockSignature | string | ... | No |
+| Name                  |  Type   | Description                                                                     | Required |
+| :-------------------- | :----: | :------------------------------------------------------------------------------------- | :---------: |
+| page                  |   int    | The number of the page that will be returned. |       No       |
+| limit                |   int    | The number of resources per page.                         |       No       |
+| orderBy              | string | Type by which it orders blocks.               |    No    |
+| id                   | string | The identifier of the block to be retrieved.  |    No    |
+| version              |  int   | ...                                           |    No    |
+| timestamp            |  int   | ...                                           |    No    |
+| previousBlock        | string | ...                                           |    No    |
+| height               |  int   | The height of the block to be retrieved.      |    No    |
+| numberOfTransactions |  int   | ...                                           |    No    |
+| totalAmount          |  int   | ...                                           |    No    |
+| totalFee             |  int   | ...                                           |    No    |
+| reward               |  int   | ...                                           |    No    |
+| payloadLength        |  int   | ...                                           |    No    |
+| payloadHash          |  int   | ...                                           |    No    |
+| generatorPublicKey   | string | ...                                           |    No    |
+| blockSignature       | string | ...                                           |    No    |
 
 ### Examples
 
@@ -275,9 +275,9 @@ GET /api/v2/blocks/{id|height}
 
 ### Path Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| {id\|height} | string | The ID or height of the block to be retrieved. | Yes |
+| Name         |  Type  | Description                                    | Required |
+| :----------- | :----: | :--------------------------------------------- | :------: |
+| {id\|height} | string | The ID or height of the block to be retrieved. |   Yes    |
 
 ### Examples
 
@@ -334,28 +334,28 @@ GET /api/v2/blocks/{id|height}/transactions
 
 ### Path Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| {id\|height} | string | The identifier of the block to be retrieved. | Yes |
+| Name         |  Type  | Description                                  | Required |
+| :----------- | :----: | :------------------------------------------- | :------: |
+| {id\|height} | string | The identifier of the block to be retrieved. |   Yes    |
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| page | int | The number of the page that will be returned. | No |
-| limit | int | The number of resources per page. | No |
-| orderBy | string | Type by which it orders transactions of a block. | No |
-| id | string | ... | No |
-| blockId | string | ... | No |
-| type | int | ... | No |
-| version | int | ... | No |
-| senderPublicKey | string | ... | No |
-| senderId | string | ... | No |
-| recipientId | string | ... | No |
-| timestamp | int | ... | No |
-| amount | int | ... | No |
-| fee | int | ... | No |
-| vendorField | string | ... | No |
+| Name            |  Type  | Description                                      | Required |
+| :-------------- | :----: | :----------------------------------------------- | :------: |
+| page            |  int   | The number of the page that will be returned.    |    No    |
+| limit           |  int   | The number of resources per page.                |    No    |
+| orderBy         | string | Type by which it orders transactions of a block. |    No    |
+| id              | string | ...                                              |    No    |
+| blockId         | string | ...                                              |    No    |
+| type            |  int   | ...                                              |    No    |
+| version         |  int   | ...                                              |    No    |
+| senderPublicKey | string | ...                                              |    No    |
+| senderId        | string | ...                                              |    No    |
+| recipientId     | string | ...                                              |    No    |
+| timestamp       |  int   | ...                                              |    No    |
+| amount          |  int   | ...                                              |    No    |
+| fee             |  int   | ...                                              |    No    |
+| vendorField     | string | ...                                              |    No    |
 
 ### Examples
 
@@ -435,35 +435,35 @@ POST /api/blocks/search
 
 ### Body Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| id | string | ID of the block. | No |
-| version | int | Version of the block. | No |
-| previousBlock | int | ID of the previous block. | No |
-| payloadHash | string | Hash of the payload. | No |
-| generatorPublicKey | string | Public key of the forger who forged the block. | No |
-| blockSignature | string | Signature of the block. | No |
-| timestamp | object | Timestamp range for block creation time. Measured in number of seconds since the genesis block. | No |
-| timestamp.from | int | Block creation time must be bigger or equal to this. | No |
-| timestamp.to | int | Block creation time must be smaller or equal to this. | No |
-| height | object | Height range of the block. The genesis block has height 1. | No |
-| height.from | int | Block height must be bigger or equal to this. | No |
-| height.to | int | Block height must be smaller or equal to this. | No |
-| numberOfTransactions | object | Ranage for number of transactions contained in the block. | No |
-| numberOfTransactions.from | int | The number of transactions in the block must be bigger or equal to this. | No |
-| numberOfTransactions.to | int | The number of transactions in the block must be smaller or equal to this. | No |
-| totalAmount | object | Range for total amount transacted in the block, including block reward, transaction fees and transactions' amounts. In arktoshi. | No |
-| totalAmount.from | int | Block total amount must be bigger or equal to this. | No |
-| totalAmount.to | int | Block total amount must be smaller or equal to this. | No |
-| totalFee | object | Range for the sum of all transactions' fees in the block. In arktoshi. | No |
-| totalFee.from | int | The sum of all transactions' fees in the block must be bigger or equal to this. | No |
-| totalFee.to | int | The sum of all transactions' fees in the block must be smaller or equal to this. | No |
-| reward | object | Range for block reward. In arktoshi. | No |
-| reward.from | int | Block reward must be bigger or equal to this. | No |
-| reward.to | int | Block reward must be smaller or equal to this. | No |
-| payloadLength | object | Range for block payload length. In bytes. | No |
-| payloadLength.from | int | Block payload length must be bigger or equal to this. | No |
-| payloadLength.to | int | Block payload length must be smaller or equal to this. | No |
+| Name                      |  Type  | Description                                                                                                                      | Required |
+| :------------------------ | :----: | :------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| id                        | string | ID of the block.                                                                                                                 |    No    |
+| version                   |  int   | Version of the block.                                                                                                            |    No    |
+| previousBlock             |  int   | ID of the previous block.                                                                                                        |    No    |
+| payloadHash               | string | Hash of the payload.                                                                                                             |    No    |
+| generatorPublicKey        | string | Public key of the forger who forged the block.                                                                                   |    No    |
+| blockSignature            | string | Signature of the block.                                                                                                          |    No    |
+| timestamp                 | object | Timestamp range for block creation time. Measured in number of seconds since the genesis block.                                  |    No    |
+| timestamp.from            |  int   | Block creation time must be bigger or equal to this.                                                                             |    No    |
+| timestamp.to              |  int   | Block creation time must be smaller or equal to this.                                                                            |    No    |
+| height                    | object | Height range of the block. The genesis block has height 1.                                                                       |    No    |
+| height.from               |  int   | Block height must be bigger or equal to this.                                                                                    |    No    |
+| height.to                 |  int   | Block height must be smaller or equal to this.                                                                                   |    No    |
+| numberOfTransactions      | object | Ranage for number of transactions contained in the block.                                                                        |    No    |
+| numberOfTransactions.from |  int   | The number of transactions in the block must be bigger or equal to this.                                                         |    No    |
+| numberOfTransactions.to   |  int   | The number of transactions in the block must be smaller or equal to this.                                                        |    No    |
+| totalAmount               | object | Range for total amount transacted in the block, including block reward, transaction fees and transactions' amounts. In arktoshi. |    No    |
+| totalAmount.from          |  int   | Block total amount must be bigger or equal to this.                                                                              |    No    |
+| totalAmount.to            |  int   | Block total amount must be smaller or equal to this.                                                                             |    No    |
+| totalFee                  | object | Range for the sum of all transactions' fees in the block. In arktoshi.                                                           |    No    |
+| totalFee.from             |  int   | The sum of all transactions' fees in the block must be bigger or equal to this.                                                  |    No    |
+| totalFee.to               |  int   | The sum of all transactions' fees in the block must be smaller or equal to this.                                                 |    No    |
+| reward                    | object | Range for block reward. In arktoshi.                                                                                             |    No    |
+| reward.from               |  int   | Block reward must be bigger or equal to this.                                                                                    |    No    |
+| reward.to                 |  int   | Block reward must be smaller or equal to this.                                                                                   |    No    |
+| payloadLength             | object | Range for block payload length. In bytes.                                                                                        |    No    |
+| payloadLength.from        |  int   | Block payload length must be bigger or equal to this.                                                                            |    No    |
+| payloadLength.to          |  int   | Block payload length must be smaller or equal to this.                                                                           |    No    |
 
 ### Examples
 

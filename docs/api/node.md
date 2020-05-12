@@ -310,9 +310,9 @@ curl https://api.nos.dev/api/v2/node/fees
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :---: | :--- | :---: |
-| days | int | The number of days which will be regarded. | No |
+| Name | Type  | Description                                | Required |
+| :--- | :---: | :----------------------------------------- | :------: |
+| days |  int  | The number of days which will be regarded. |    No    |
 
 ### Response
 

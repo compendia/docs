@@ -13,24 +13,24 @@ GET /api/v2/locks
 ### Example
 
 ```
-curl https://dexplorer.ark.io/api/locks
+curl https://api.nos.dev/api/v2/locks
 ```
 
 ### Query Parameters
 
-| Name | Type | Description | Required |
-| :--- | :--- | :--- | :--- |
-| page | int | The number of the page that will be returned. | false |
-| limit | int | The number of resources per page. | false |
-| orderBy | string | Type by which it orders locks. | false |
-| recipientId | string | ... | false |
-| senderPublicKey | string | ... | false |
-| lockId | string | ... | false |
-| secretHash | string | ... | false |
-| amount | int | ... | false |
-| expirationValue | int | ... | false |
-| expirationType | int | ... | false |
-| isExpired | boolean | ... | false |
+| Name                  | Type        | Description                                                                                                       | Required |
+| :-------------------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------ | :--------------- |
+| page                  | int           | The number of the page that will be returned. | false          |
+| limit               | int           | The number of resources per page.                                     | false          |
+| orderBy         | string  | Type by which it orders locks.                                              | false          |
+| recipientId     | string  | ...                                           | false    |
+| senderPublicKey | string  | ...                                           | false    |
+| lockId          | string  | ...                                           | false    |
+| secretHash      | string  | ...                                           | false    |
+| amount          | int     | ...                                           | false    |
+| expirationValue | int     | ...                                           | false    |
+| expirationType  | int     | ...                                           | false    |
+| isExpired       | boolean | ...                                           | false    |
 
 ### Response
 
@@ -93,7 +93,7 @@ GET /api/v2/locks/{lockId}
 ### Example
 
 ```
-curl https://dexplorer.ark.io/api/locks/0d65f66631e90d71242fc7c09e9e86b68248b546d22678eaa2fa4bbcbffb0184
+curl https://api.nos.dev/api/v2/locks/0d65f66631e90d71242fc7c09e9e86b68248b546d22678eaa2fa4bbcbffb0184
 ```
 
 ### Response
@@ -135,18 +135,18 @@ GET /api/v2/locks/search
 
 ### Body parameters
 
-| Name | Type | Description | Required |
-| :--- | :--- | :--- | :--- |
-| recipientId | string | ... | false |
-| senderPublicKey | string | ... | false |
-| lockId | string | ... | false |
-| secretHash | string | ... | false |
-| amount | int | ... | false |
-| timestamp | int | ... | false |
-| vendorField | string | ... | false |
-| expirationType | int | ... | false |
-| expirationValue | int | ... | false |
-| isExpired | boolean | ... | false |
+| Name            | Type    | Description | Required |
+| :-------------- | :------ | :---------- | :------- |
+| recipientId     | string  | ...         | false    |
+| senderPublicKey | string  | ...         | false    |
+| lockId          | string  | ...         | false    |
+| secretHash      | string  | ...         | false    |
+| amount          | int     | ...         | false    |
+| timestamp       | int     | ...         | false    |
+| vendorField     | string  | ...         | false    |
+| expirationType  | int     | ...         | false    |
+| expirationValue | int     | ...         | false    |
+| isExpired       | boolean | ...         | false    |
 
 ### Response
 
@@ -216,7 +216,7 @@ api/locks/unlocked
 
 ### Body parameters
 
-| Name | Type | Description | Required |
-| :--- | :--- | :--- | :--- |
-| ids | array | Array of lock ids | true |
+| Name | Type  | Description       | Required |
+| :--- | :---- | :---------------- | :------- |
+| ids  | array | Array of lock ids | true     |
 
