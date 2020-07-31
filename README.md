@@ -1,1 +1,1 @@
-Official documentation for the Compendia Blockchain
+Official documentation for Compendia

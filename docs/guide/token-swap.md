@@ -1,4 +1,12 @@
-# Token Swap Guide (NOS to BIND)
+# Token Swap (NOS to BIND)
+
+:::: warning
+**The token swap has not yet started.**
+
+Follow us on [Twitter](https://twitter.com/Compendia_org) and then click the bell 🔔 to receive a notification when the swap goes online!
+
+Also follow our [Telegram Announcements](https://twitter.com/CompendiaAnn) channel for notifications.
+::::
 
 ## Video
 
@@ -55,5 +63,4 @@ If you hold your tokens on another wallet like Neon or O3, we recommend creating
 
 If you're still having issues, report your problem on the [Compendia Telegram channel](https://t.me/Compendia). Don't respond to direct messages. Our staff will never PM you first.
 
-**After completing these steps, your tokens are swapped and you can start staking, voting, and using Compendia's features! Join our [Telegram community](https://t.me/Compendia) if you'd like to talk to the community, and stay tuned for more tips and tutorials in our video series.
-**
+**After completing these steps, your tokens are swapped and you can start staking, voting, and using Compendia's features! Join our [Telegram community](https://t.me/Compendia) if you'd like to talk to the community, and stay tuned for more tips and tutorials in our video series.**

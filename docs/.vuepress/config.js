@@ -15,7 +15,8 @@ module.exports = {
                         'economy',
                         'wallet',
                         'validators',
-                        'node'
+                        'node',
+                        'token-swap'
                     ]
                 },
             ],

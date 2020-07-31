@@ -1,6 +1,7 @@
 # Nodes (Relay & Forging)
 
 ## What are nodes?
+
 Your **Forging Node** is your server that will verify transactions and forge blocks. You must have a forging node in order to collect block rewards and transaction fees when you're in the Top 47.
 
 Your **Relay Nodes** are API servers that maintain a copy of the blockchain. Users and apps in the network can automatically connect to nearby relay nodes to make transactions and get blockchain data.
@@ -32,9 +33,9 @@ Once we set up the first relay, we can create a snapshot and instantly create ou
 
 **Important:** If you're signing up with a referral link, make sure to turn off your adblockers (e.g. Brave Browser can block your referral data from your session).
 
-2. Once logged in to DigitalOcean, create a new Droplet. <br> ![image|690x243](https://nos.chat/uploads/default/original/1X/a41d1de11b438b77a0a338e4adf5592022ead096.png) 
+2. Once logged in to DigitalOcean, create a new Droplet. <br> ![image|690x243](https://nos.chat/uploads/default/original/1X/a41d1de11b438b77a0a338e4adf5592022ead096.png)
 
-1. Select the $15/mo Standard Droplet (3 GB RAM / 1 CPU):
+3. Select the $15/mo Standard Droplet (3 GB RAM / 1 CPU):
 ![image|690x302](https://nos.chat/uploads/default/original/1X/b08c314bd46cfc156f061939d80273717ef3d4c9.png) 
 
 4. Select your preferred hosting location. You'll use the same location for all your nodes. This can be your own country, or you can ask the community in which country more nodes are needed:
@@ -49,8 +50,7 @@ Once we set up the first relay, we can create a snapshot and instantly create ou
 7. Add the tag "nos" to your droplet:<br>
 ![image|690x125](https://nos.chat/uploads/default/original/1X/869bcc9728035920d5ad396116bb5ccffcd631a6.png) 
 
-
-1. You can optionally enable backups for $3/mo. Low cost for an important feature. Enabling it is recommended.
+8. You can optionally enable backups for $3/mo. Low cost for an important feature. Enabling it is recommended.
 
 ## Install core-control
 
@@ -59,6 +59,7 @@ Now we're going to set up core-control.
 1. Log in to your VPS using SSH: [Instructions for Windows](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/putty/) - [Instructions for macOS/Linux](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/openssh/).
 
 2. Once logged in, create a new user:
+
 ```bash
 adduser nos
 usermod -aG sudo nos
@@ -69,16 +70,20 @@ Whenever you log in to your droplet, you can (and should always) log in with `su
 You can also configure it as your default user account when logging in with PuTTy or OpenSSH.
 
 3. Navigate to your `nos` user directory:
+
 ```bash
 cd ~
 ```
+
 Clone the core-control repository and navigate into it:
+
 ```bash
 git clone https://github.com/nos/core-control -b nos-devnet
 cd core-control
 ```
 
 Now we can install the blockchain node software (enter one of the two commands below based on your preference):
+
 ```bash
 # If you'd like core-control to set up everything, including a firewall:
 ./ccontrol.sh install core
@@ -101,11 +106,13 @@ The installation will take a few minutes.
 
 8. In `relay-2`, execute the following to log in as the `nos` user and go to the core-control directory:
 ```bash
+
 su nos
 cd ~/core-control
 ```
 
 9. Now execute the following commands in both `relay-1` and `relay-2`:
+
 ```bash
 ./ccontrol.sh start relay
 ./ccontrol.sh logs
@@ -128,14 +135,17 @@ We can use the snapshot we made when we set up our first node to quickly bootstr
 3. Create the node and log in with SSH.
 
 4. Configure your private key by entering:
-```
+
+```bash
 ccontrol secret set {your secret here}
 ```
+
 *Replace `{your secret here}` with your validator's mnemonic key, without the `{ ... }` brackets.*
 
 5. Run the following:
+
 ```bash
-ccontrol start all
+ccontrol start core
 ccontrol logs
 ```
 
@@ -152,6 +162,7 @@ While you're not in the Top 47, all of your nodes will still sync the blockchain
 ## Updating a node
 
 To update a node to the latest Compendia node software version, simply log in to the node as your **node user**, then enter:
+
  ```bash
  ccontrol update core
  ```
@@ -166,7 +177,7 @@ ccontrol config reset
 # If you're running a forging node:
 ccontrol secret set [your validator secret]
 # Start your node
-ccontrol start [relay/forger]
+ccontrol start core
 ```
 
 ## Tips
