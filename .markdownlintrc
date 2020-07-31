@@ -1,0 +1,6 @@
+{
+  "no-inline-html": {
+    "allowed_elements": ["video", "source"]
+  },
+  "MD013": false
+}

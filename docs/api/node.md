@@ -31,7 +31,7 @@ curl https://api.nos.dev/api/v2/node/configuration
     "nethash": "e8c5243c53bd6809a52f0c6fdcfd2c9ee3410e0650243e82df5074d9ea6405ae",
     "slip44": 1,
     "wif": 170,
-    "token": "NOS",
+    "token": "BIND",
     "symbol": "◎",
     "explorer": "https://explorer.nos.dev",
     "version": 90,

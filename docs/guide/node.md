@@ -143,7 +143,7 @@ You should see your forger start syncing blocks.
 
 When your Validator has enough votes to be in the Top 47, you'll start forging blocks and collecting block rewards and transaction fees.
 
-If you're in the top 5, you'll earn 0.02 NOS extra per block!
+If you're in the top 5, you'll earn 0.02 BIND extra per block!
 
 While you're not in the Top 47, all of your nodes will still sync the blockchain and help secure and increase the performance of the network.
 

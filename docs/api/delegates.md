@@ -1,6 +1,6 @@
 # Delegates (Validators)
 
-Delegates are regular wallets \(addresses\) which have registered themselves eligible to become a Delegate by a registration transaction. If a Delegate is amongst the top 47 highest voted, it may run a forging Node, which produces a block once every  minutes, awarding the Delegate with Dia and transaction fees.
+Delegates are regular wallets \(addresses\) which have registered themselves eligible to become a Delegate by a registration transaction. If a Delegate is amongst the top 47 highest voted, it may run a forging Node, which produces a block once every  minutes, awarding the Delegate with BIND and transaction fees.
 
 Genesis Delegates are the initial, virtualized Delegates. They were not registered nor voted in, and in the Compendia `mainnet` has been replaced by actual Delegates a long time ago.
 

@@ -2,11 +2,11 @@
 
 ## Vote Power
 
-As explained in [Introduction - Dia Coin](/#dia-coin), the Dia coin represents **vote power** (or **power** for short) on the Compendia network. A validator's ranking is calculated by the **collective vote power** of their voters.
+As explained in [Introduction - BIND](/#bind), the BIND coin represents **vote power** (or **power** for short) on the Compendia network. A validator's ranking is calculated by the **collective vote power** of their voters.
 
 The primary role of validators is to secure the network, and optionally to provide the network with valuable data as a database curator.
 
-In return for securing and maintaining the network, validators who are in the top 47 collect Dia through *block rewards* and *transaction fees*.
+In return for securing and maintaining the network, validators who are in the top 47 collect BIND through *block rewards* and *transaction fees*.
 
 In an effort to garner votes to reach or maintain their position in the top 47, validators may pledge to **provide various services** that contribute to Compendia's ecosystem.
 
@@ -19,6 +19,7 @@ Such services could include:
 * Building new applications that integrate with the ecosystem.
 
 ### Voter Incentives
+
 Validators may also choose to offer certain services **exclusively to their voters**. Such services may also scale with a voter's Vote Power.
 
 **Vote-weighted services** could attract new voters and persuade existing voters to increase their Vote Power through staking or increasing their wallet balance. This would grow the validator’s votes, strengthening their forging position.
@@ -27,7 +28,7 @@ Examples of vote-weighted services include:
 
 * Prioritized **data entry** in the validator's Compendia databases.
 * Periodically **sharing a percentage of collected block rewards** and transaction fees with voters. 
-   * **For example**: a voter who represents 20% of a validator's votes (i.e. 20k power on a validator with 100k total votes), could receive 20% of the validator's periodic (voluntary) reward share.
+  * **For example**: a voter who represents 20% of a validator's votes (i.e. 20k power on a validator with 100k total votes), could receive 20% of the validator's periodic (voluntary) reward share.
 * Providing voters with **storage space** and bandwidth in Compendia's filesystem.
 * Online apps or games with **benefit levels** scaled to the voter's power (i.e. in-game credits).
 * Voter-exclusive **bounty programs** and competitions.
@@ -35,6 +36,8 @@ Examples of vote-weighted services include:
 Virtually endless unique services and incentives can be created and offered by validators to their voters.
 
 *Disclaimer: No specific "voter incentive" from validators is expected or required by the developers of the network.*
+
+*BIND has no inherent financial value and should only be obtained by people who want to use the network. BIND should not be held as a financial investment. Do not expect to gain any financial returns from holding BIND, or any other Utility Token, Cryptocurrency, or Blockchain Coin.*
 
 ## Staking
 
@@ -46,7 +49,7 @@ This feature lets users who are willing to *commit time* to the network gain equ
 
 As explained in [Voter Benefits](#voter-benefits), the more power you have as a voter, the more you may stand to gain from validators.
 
-You can stake Dia using the web wallet. See [Wallet - Stake](./wallet.html#stake).
+You can stake BIND using the web wallet. See [Wallet - Stake](./wallet.html#stake).
 
 ### Durations
 You can stake coins for 3 possible durations.
@@ -64,7 +67,7 @@ Each duration will multiply your stake's vote power by a certain amount:
 
  Your stake will go through various *phases*:
  
- * **Grace:** After creating the stake, you can still cancel it within 1 hour. Canceling your stake returns all your to-be staked Dia.
+ * **Grace:** After creating the stake, you can still cancel it within 1 hour. Canceling your stake returns all your to-be staked BIND.
   
  * **Powering:** After one hour, your stake is *powering up*. While powering up, each coin still represents one vote. The power-up duration is 47 hours.
   
@@ -72,16 +75,16 @@ Each duration will multiply your stake's vote power by a certain amount:
   
  * **Release:** After your stake passes its duration, it will be *released*. A *released stake* grants half the bonus vote power, but you can redeem it at any time. This means you still benefit from the stake, but are also free to move or re-stake your coins at any time. 
   
- * **Redeemed:** If you redeem a released stake, all your staked Dia will return to your wallet. Each previously staked coin will represent 1 vote power again.
+ * **Redeemed:** If you redeem a released stake, all your staked BIND will return to your wallet. Each previously staked coin will represent 1 vote power again.
 
 
 ## Block Rewards & Halvings
 
-The initial block reward is **4.84** Dia for the top 5 validators, and **3.9 Dia** for the other 42 active validators.
+The initial block reward is **4.84** BIND for the top 5 validators, and **3.9 BIND** for the other 42 active validators.
 
-These two rewards result in an average fixed block reward of **4 Dia** per block.
+These two rewards result in an average fixed block reward of **4 BIND** per block.
 
-To maintain a balance in vote power distribution between voters and validators, **the block reward will be halved every approximate three years** until it reaches 0.03046875 (~0.03) Dia for the block reward and 0.0378125 (~0.038) Dia for the Top 5 validators' block reward.
+To maintain a balance in vote power distribution between voters and validators, **the block reward will be halved every approximate three years** until it reaches 0.03046875 (~0.03) BIND for the block reward and 0.0378125 (~0.038) BIND for the Top 5 validators' block reward.
 
 After year 17 the block rewards will remain at these fixed amounts, or until a new proposal is established and accepted by network consensus.
 
@@ -119,17 +122,17 @@ This fee system helps with combating possible shifts in Vote Power going from vo
 
 #### Example
 
-1. A block has collected ₵12.00 in transaction fees.
+1. A block has collected ß12.00 in transaction fees.
 
-2. 3.90 from the collected fees (the amount equal to the block reward) are removed from circulation.
+2. ß3.90 from the collected fees (the amount equal to the block reward) are removed from circulation.
 
-3. (12 - 3.9) * 0.5 = ₵4.05 from the remainder are also removed from circulation.
+3. (12 - 3.9) * 0.5 = ß4.05 from the remainder are also removed from circulation.
 
-4. The other ₵4.05 are awarded to the forging validator.
+4. The other ß4.05 are awarded to the forging validator.
 
-The block’s forging validator receives ₵7.95 (₵4.05 from collected fees awarded in step 4, plus ₵3.90 block reward).
+The block’s forging validator receives ß7.95 (ß4.05 from collected fees awarded in step 4, plus ß3.90 block reward).
 
 
-The transaction fee logic removed ₵7.95 from circulation, while the fixed block reward added ₵3.90 to circulation, causing a net ₵4.05 reduction in NOS supply.
+The transaction fee logic removed ß7.95 from circulation, while the fixed block reward added ß3.90 to circulation, causing a net ß4.05 reduction in BIND supply.
 
 

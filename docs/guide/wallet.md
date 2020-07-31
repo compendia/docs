@@ -20,7 +20,7 @@ To transfer coins, click the Transfer button on the left panel:
 
 ![Mnemonic](./img/transferbutton.png)
 
-Once you're in the Transfer panel, simply enter the amount of Dia you want to transfer and the address of the receiver.
+Once you're in the Transfer panel, simply enter the amount of BIND you want to transfer and the address of the receiver.
 
 When you click **Send**, you'll get a confirmation screen with the information you entered.
 
@@ -44,7 +44,7 @@ To stake coins, make sure you're on the Stake panel:
 
 ![Mnemonic](./img/stake-panel.png)
 
-Enter the amount you want to stake (minimum 10,000 Dia for mainnet), and the duration.
+Enter the amount you want to stake (minimum 10,000 BIND for mainnet), and the duration.
 
 You can review how your stake will increase your vote power under **Details**.
 

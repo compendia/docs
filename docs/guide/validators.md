@@ -5,11 +5,11 @@ This guide will explain how to register a validator and set up a validator profi
 ## Introduction
 Compendia adopts a **Delegated Proof of Stake** - or **DPoS** - consensus model.
 
-DPoS enables high performance with fast block times, while governance of the network resides with the holders of the network’s native cryptocurrency: Dia.
+DPoS enables high performance with fast block times, while governance of the network resides with the holders of the network’s native cryptocurrency: BIND.
 
 The nodes that seek to verify transactions and secure the network are called **validators**.
 
-Wallets with a Dia balance/stake can vote for validators.
+Wallets with a BIND balance/stake can vote for validators.
 
 The top forty-seven validators (ranked by *vote balance*: the collective vote power of all wallets that voted for a validator) will forge new blocks.
 
