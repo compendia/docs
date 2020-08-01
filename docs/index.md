@@ -1,7 +1,7 @@
 <script>
 module.exports = {
   mounted(){
-    this.$router.push('/guide/')
+    document.location.replace('/guide/')
   }
 }
 </script>
