@@ -1,1 +1,1 @@
-Official documentation for Compendia
+Official documentation for Compendia: https://docs.compendia.org
