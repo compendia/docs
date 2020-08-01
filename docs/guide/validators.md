@@ -56,3 +56,5 @@ Logos and descriptions are visible on the wallet and explorer.
 4. Go to **Update Profile** again and upload your logo.
 
 ***Note:** Any offensive, 18+, and/or illegal content will cause your custom data to be permanently hidden from the official wallet and explorer.*
+
+Now you're ready to [set up a node](/guide/node.html) for your validator.

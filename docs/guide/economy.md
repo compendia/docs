@@ -2,7 +2,7 @@
 
 ## Vote Power
 
-As explained in [Introduction - BIND](/#bind), the BIND coin represents **vote power** (or **power** for short) on the Compendia network. A validator's ranking is calculated by the **collective vote power** of their voters.
+As explained in [Introduction - BIND](/guide/#bind), the BIND coin represents **vote power** (or **power** for short) on the Compendia network. A validator's ranking is calculated by the **collective vote power** of their voters.
 
 The primary role of validators is to secure the network, and optionally to provide the network with valuable data as a database curator.
 
