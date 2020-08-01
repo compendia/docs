@@ -56,7 +56,7 @@ Some possibilities for earning ("farming") BIND currently include:
 
 * **Contributing to databases:** Validators may **reward** people for contributing to their databases. Check out their descriptions to find out what you can do for a validator to get paid BIND.
 
-* **Using Compendia APIs with your app:** Some validators and organizations are granting BIND to developers who will build or extend apps and websites that integrate with Compendia's APIs. You can join the [Telegram](https://t.me/nOSChat) to present your app.
+* **Using Compendia APIs with your app:** Some validators and organizations are granting BIND to developers who will build or extend apps and websites that integrate with Compendia's APIs. You can join the [Telegram](https://t.me/Compendia) to present your app.
 
 * **Running a validator:** As a validator you can earn block rewards consistently. The top 47 validators earn 3.90 BIND per forged block, and the top 5 earn 4.84 BIND. An active validator forges one block approximately every 5 minutes.
 
