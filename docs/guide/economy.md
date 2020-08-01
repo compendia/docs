@@ -52,7 +52,9 @@ As explained in [Voter Benefits](#voter-benefits), the more power you have as a 
 You can stake BIND using the web wallet. See [Wallet - Stake](./wallet.html#stake).
 
 ### Durations
-You can stake coins for 3 possible durations.
+You can stake 10,000 BIND or more for 3 possible durations.
+
+The minimum stake requirement can change in the future based on validator/voter consensus.
 
 Each duration will multiply your stake's vote power by a certain amount:
 
