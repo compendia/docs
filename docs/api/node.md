@@ -32,7 +32,7 @@ curl https://api.nos.dev/api/v2/node/configuration
     "slip44": 1,
     "wif": 170,
     "token": "BIND",
-    "symbol": "◎",
+    "symbol": "ß",
     "explorer": "https://explorer.nos.dev",
     "version": 90,
     "ports": {
