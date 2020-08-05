@@ -22,7 +22,7 @@ Vulnerabilities in ARK Core-native packages are only eligible for rewards if the
 
 Most Compendia-exclusive modules live in its [Core Plugins](https://github.com/nos/core/tree/develop/plugins) directory.
 
-All rewards are paid in BIND.
+All rewards are paid in BIND, BTC, or USDT at the Compendia team's sole discretion.
 
 **Vulnerabilities that also exists in ARK Core may only be eligible for rewards from the ARK team.**
 
@@ -73,4 +73,4 @@ To be eligible for compensation for reporting of a valid security vulnerability,
 * The Researcher must be able to completely reproduce and demonstrate the vulnerability or provide valid instructions so that our development team can do the same. This will allow us to properly test any patches prior to release.
 * Before reporting a security vulnerability, the Researcher should review public branches and the latest commits to see if the team is currently aware of the vulnerability. If after review the Researcher believes the security vulnerability is still present, a report should be submitted.
 
-_Disclaimer: Category of the severity of the disclosure and all monetary decisions are at the sole discretion of the Compendia Team and are final. Exploits that make indirect use of already known issues may not be eligible for payment. Examples are for reference only and do not impact or predict potential classification or payment. Past evaluations of security vulnerabilities are not indicative of future evaluations. Security vulnerabilities are paid in BIND on the daily average rate before the payout at the sole discretion of the Compendia Team. Please direct any questions to_ [_contact@compendia.org_](mailto:contact@compendia.org) _with the title “SV Program Help”._
+_Disclaimer: Category of the severity of the disclosure and all monetary decisions are at the sole discretion of the Compendia Team and are final. Exploits that make indirect use of already known issues may not be eligible for payment. Examples are for reference only and do not impact or predict potential classification or payment. Past evaluations of security vulnerabilities are not indicative of future evaluations. Security vulnerabilities are paid in BIND, BTC, or USDT on the daily average rate before the payout at the sole discretion of the Compendia Team. Please direct any questions to_ [_contact@compendia.org_](mailto:contact@compendia.org) _with the title “SV Program Help”._
