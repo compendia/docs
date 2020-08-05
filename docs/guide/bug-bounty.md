@@ -1,4 +1,4 @@
-# Security Vulnerability Disclosure Program
+# Bug Bounty & Security Vulnerability Reward Program
 
 **No software is ever perfect. Even fully vetted production releases can often have awkward bugs or security vulnerabilities that manage to slip through the cracks. We take the security of our network very seriously and want to do everything we can to encourage and incentivize responsible and timely reporting of any discovered vulnerabilities in our code. To do this, we provide a vulnerability reporting process that includes monetary rewards for bugs or errors in the** [**Compendia Core**](https://github.com/nos/core) **that could potentially harm or exploit the Compendia network.**
 

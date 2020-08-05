@@ -19,7 +19,8 @@ module.exports = {
                         'wallet',
                         'validators',
                         'node',
-                        'token-swap'
+                        'token-swap',
+                        'bug-bounty'
                     ]
                 },
             ],
