@@ -26,7 +26,7 @@ All rewards are paid in BIND.
 
 **Vulnerabilities that also exists in ARK Core may only be eligible for rewards from the ARK team.**
 
-ARK Core vulnerabilities packages should be reported to the [ARK team](https://ark.io/sv).
+ARK Core vulnerabilities should be reported to the [ARK team](https://ark.io/sv).
 ::::
 
 **Github Repository:** [**https://github.com/nos/core**](https://github.com/nos/core)
