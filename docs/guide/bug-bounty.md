@@ -10,7 +10,7 @@ _Note: All disclosures are examined on a case by case basis given the nature of 
 
 Compendia's Bug Bounty / Vulnerability Rewards Program (VRP) only applies to Compendia-exclusive features.
 
-Vulnerabilities in ARK Core-native packages are only eligible for rewards if they exist due to a modification that was made by Compendia.
+Vulnerabilities in ARK Core-native packages are only eligible for rewards if they exist due to modifications made by Compendia.
 
 **Compendia modules include:**
 
