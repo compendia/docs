@@ -65,7 +65,7 @@ To report a possible security vulnerability, please include your Name, preferred
 
 To be eligible for compensation for reporting of a valid security vulnerability, researchers must meet the following criteria:
 
-* The vulnerability must be exclusive to the Compendia's Core plugins that are live on its mainnet. For an ARK Core related vulnerability, contact [ARK](https://ark.io/sv).
+* The vulnerability must be exclusive to Compendia Core plugins that are live on its mainnet (or a Compendia-made modification to an ARK Core package). For an ARK Core related vulnerability, contact [ARK](https://ark.io/sv).
 * The vulnerability must not also exist (or have existed) on ARK Core.
 * In order to receive payment, a proper invoice and personal information must be provided.
 * The Researcher must never have publicly disclosed the exploit or vulnerability.
