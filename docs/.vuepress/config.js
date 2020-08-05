@@ -2,6 +2,9 @@ module.exports = {
     title: 'Compendia Docs',
     description: 'Guides and FAQs for Compendia',
     themeConfig: {
+        repo: 'compendia/docs',
+        editLinks: true,
+        docsDir: 'docs',
         // logo: '/assets/img/logo.png',
         sidebar:
         {
