@@ -39,7 +39,7 @@ Below you will find several examples that outline the current tier structure and
 
 Security vulnerabilities that have critical, usually irreversible or irreparable implications to the network or its infrastructure.
 
-_Examples: making BIND out of thin air through a vulnerability the staking system, staking someone else’s BIND without the need of their private keys, taking control of the entire network, permanently forking the network or a way to permanently destroy the integrity of the Compendia blockchain without requiring a malicious validator through one of Compendia's unique features._
+_Examples: making BIND out of thin air through a vulnerability the staking system, staking more BIND than is in the wallet balance, staking someone else’s BIND without the need of their private keys, taking control of the entire network, permanently forking the network or a way to permanently destroy the integrity of the Compendia blockchain without requiring a malicious validator through one of Compendia's unique features._
 
 ### **Severe Vulnerabilities: $1,000 - $1,500**
 
