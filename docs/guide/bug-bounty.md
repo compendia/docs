@@ -66,10 +66,10 @@ To report a possible security vulnerability, please include your Name, preferred
 To be eligible for compensation for reporting of a valid security vulnerability, researchers must meet the following criteria:
 
 * The vulnerability must be exclusive to Compendia Core plugins that are live on its mainnet (or a Compendia-made modification to an ARK Core package). For an ARK Core related vulnerability, contact [ARK](https://ark.io/sv).
-* The vulnerability must not also exist (or have existed) on ARK Core.
+* The vulnerability must not also exist (or have existed) on ARK Core. If the security issue is related to ARK Core and not Compendia, contact ARK.
 * In order to receive payment, a proper invoice and personal information must be provided.
 * The Researcher must never have publicly disclosed the exploit or vulnerability.
-* The Researcher must not maliciously initiate an exploit on ARK Public Network. If testing is required for a potential vulnerability or to reproduce it, please use [Compendia Testnet](https://explorer.nos.dev) or set up your own local testnet (pull Compendia Core and install redis server, run `yarn setup`, then `cd packages/core && yarn full:testnet`).
+* The Researcher must not maliciously initiate an exploit on the Compendia mainnet. If testing is required for a potential vulnerability or to reproduce it, please use [Compendia Testnet](https://explorer.nos.dev) or set up your own local testnet (pull Compendia Core and install redis server, run `yarn setup`, then `cd packages/core && yarn full:testnet`).
 * The Researcher must be able to completely reproduce and demonstrate the vulnerability or provide valid instructions so that our development team can do the same. This will allow us to properly test any patches prior to release.
 * Before reporting a security vulnerability, the Researcher should review public branches and the latest commits to see if the team is currently aware of the vulnerability. If after review the Researcher believes the security vulnerability is still present, a report should be submitted.
 
