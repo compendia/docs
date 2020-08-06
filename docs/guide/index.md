@@ -110,6 +110,7 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 
 * [Explorer](https://explorer.nos.dev)
 * [Wallet](https://wallet.nos.dev)
+* [API](https://api.nos.dev/api/v2)
 
 ## Community Resources
 
