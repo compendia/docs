@@ -1,6 +1,6 @@
 # Bug Bounty & Security Vulnerability Reward Program
 
-**No software is ever perfect. Even fully vetted production releases can often have awkward bugs or security vulnerabilities that manage to slip through the cracks. We take the security of our network very seriously and want to do everything we can to encourage and incentivize responsible and timely reporting of any discovered vulnerabilities in our code. To do this, we provide a vulnerability reporting process that includes monetary rewards for bugs or errors in the** [**Compendia Core**](https://github.com/nos/core) **that could potentially harm or exploit the Compendia network.**
+**No software is ever perfect. Even fully vetted production releases can often have awkward bugs or security vulnerabilities that manage to slip through the cracks. We take the security of our network very seriously and want to do everything we can to encourage and incentivize responsible and timely reporting of any discovered vulnerabilities in our code. To do this, we provide a vulnerability reporting process that includes monetary rewards for bugs or errors in the** [**Compendia Core**](https://github.com/compendia/core) **that could potentially harm or exploit the Compendia network.**
 
 Security vulnerability disclosures are weighed based on the impact to the network and assigned a tier which determines the range of payment provided for proper disclosure. Patches are not required to receive payment for a vulnerability disclosure but any recommendations on potential mitigations are appreciated and welcome.
 
@@ -20,7 +20,7 @@ Vulnerabilities in ARK Core-native packages are only eligible for rewards if the
 * Compendia Database features
 * Scaled transaction fee removal from blocks
 
-Most Compendia-exclusive modules live in its [Core Plugins](https://github.com/nos/core/tree/develop/plugins) directory.
+Most Compendia-exclusive modules live in its [Core Plugins](https://github.com/compendia/core/tree/develop/plugins) directory.
 
 All rewards are paid in BIND, BTC, or USDT at the Compendia team's sole discretion.
 
@@ -29,7 +29,7 @@ All rewards are paid in BIND, BTC, or USDT at the Compendia team's sole discreti
 ARK Core vulnerabilities should be reported to the [ARK team](https://ark.io/sv).
 ::::
 
-**Github Repository:** [**https://github.com/nos/core**](https://github.com/nos/core)
+**Github Repository:** [**https://github.com/compendia/core**](https://github.com/compendia/core)
 
 ## **Security Vulnerability Classifications**
 

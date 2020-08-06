@@ -78,7 +78,7 @@ cd ~
 Clone the core-control repository and navigate into it:
 
 ```bash
-git clone https://github.com/nos/core-control -b nos-devnet
+git clone https://github.com/compendia/core-control -b nos-devnet
 cd core-control
 ```
 

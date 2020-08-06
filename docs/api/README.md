@@ -6,7 +6,7 @@ All HTTP requests have to be sent with the `Content-Type: application/json` head
 
 This is the reference guide for the Public API. This API exposes all resources and data provided by a Compendia Core node; and is the preferred way of interacting with the Compendia network. Note that each node has its own internal blockchain and state, meaning it may have forked or be out of sync, causing queries to fail. Monitor your node by comparing it to different public nodes, such as the official [explorer](https://api.nos.dev/api/v2) to ensure you are in sync.
 
-> If you have any problems or requests please [open an issue](https://github.com/nos/core/issues/new/choose).
+> If you have any problems or requests please [open an issue](https://github.com/compendia/core/issues/new/choose).
 
 ## Pagination
 

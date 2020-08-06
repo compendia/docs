@@ -96,14 +96,20 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 
 *Interested in expanding this list? Join us on [Telegram](https://t.me/Compendia)!*
 
-## Official Resources
+## General Resources
 
 * [Website](https://compendia.org)
-* [Blockchain Software](https://github.com/nos/core)
-* [Block Explorer](https://explorer.nos.dev)
-* [Web Wallet](https://wallet.nos.dev)
+* [Github](https://github.com/compendia/core)
 * [Documentation](https://docs.compendia.org)
 * [REST API Documentation](/api/)
+* [Telegram Chat](https://t.me/Compendia)
+* [Telegram Announcements](https://t.me/CompendiaAnn)
+* [nOS Crypto Wallet](https://nos.io)
+
+## Testnet Resources
+
+* [Explorer](https://explorer.nos.dev)
+* [Wallet](https://wallet.nos.dev)
 
 ## Community Resources
 
