@@ -88,7 +88,7 @@ These two rewards result in an average fixed block reward of **4 BIND** per bloc
 
 To maintain a balance in vote power distribution between voters and validators, **the block reward will be halved every approximate three years** until it reaches 0.03046875 (~0.03) BIND for the block reward and 0.0378125 (~0.038) BIND for the Top 5 validators' block reward.
 
-After year 17 the block rewards will remain at these fixed amounts, or until a new proposal is established and accepted by network consensus.
+After year 24 the block rewards will remain at these fixed amounts, or until a new proposal is established and accepted by network consensus.
 
 The block reward reductions are visualized below (with Year 1 starting at the Genesis Block unix time):
 
