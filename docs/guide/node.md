@@ -58,18 +58,18 @@ Now we're going to set up core-control.
 
 1. Log in to your VPS using SSH: [Instructions for Windows](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/putty/) - [Instructions for macOS/Linux](https://www.digitalocean.com/docs/droplets/how-to/connect-with-ssh/openssh/).
 
-2. Once logged in, create a new user:
+2. Once logged in, update the server and then create a new user:
 
 ```bash
-adduser nos
-usermod -aG sudo nos
-su nos
+adduser bind
+usermod -aG sudo bind
+su bind
 ```
 
-Whenever you log in to your droplet, you can (and should always) log in with `su nos`.
+Whenever you log in to your droplet, you can (and should always) log in with `su bind`.
 You can also configure it as your default user account when logging in with PuTTy or OpenSSH.
 
-3. Navigate to your `nos` user directory:
+3. Navigate to your `bind` user directory:
 
 ```bash
 cd ~
@@ -78,7 +78,8 @@ cd ~
 Clone the core-control repository and navigate into it:
 
 ```bash
-git clone https://github.com/compendia/core-control -b nos-devnet
+# For a testnet node, replace "-b main" with "-b develop"
+git clone https://github.com/compendia/core-control -b main
 cd core-control
 ```
 
@@ -100,14 +101,13 @@ The installation will take a few minutes.
 5. After the snapshot is made, go to create a new VPS, but instead of selecting Ubuntu, we'll select the snapshot we just made:
 ![image|690x150](https://nos.chat/uploads/default/original/1X/3f5837ada64984123591d583866cae9116c8863e.png) 
 
-6. Select the same server plan (3GB RAM, 1 CPU for $15/mo), add the SSH key you created for the first server, set your hostname to `relay-2`, add the `nos` tag, and if you already have a back-up plan for `relay-1` you don't need to add another back-up plan for this one.
+6. Select the same server plan (3GB RAM, 1 CPU for $15/mo), add the SSH key you created for the first server, set your hostname to `relay-2`, add the `compendia` tag, and if you already have a back-up plan for `relay-1` you don't need to add another back-up plan for this one.
 
 7. Click create and log in to your new node using OpenSSH or PuTTy. Now you should have two SSH sessions open: one for `relay-1` and another for `relay-2`.
 
-8. In `relay-2`, execute the following to log in as the `nos` user and go to the core-control directory:
+8. In `relay-2`, execute the following to log in as the `bind` user and go to the core-control directory:
 ```bash
-
-su nos
+su bind
 cd ~/core-control
 ```
 
@@ -118,7 +118,7 @@ cd ~/core-control
 ./ccontrol.sh logs
 ```
 
-Next time you log in to your nodes, as the `nos` user, you can run `ccontrol <command>` without navigating to the `core-control` directory.
+Next time you log in to your nodes, as the `bind` user, you can run `ccontrol <command>` without navigating to the `core-control` directory.
 
 You can run `ccontrol logs` to check the node logs.
 
@@ -130,7 +130,7 @@ We can use the snapshot we made when we set up our first node to quickly bootstr
 
 1. Create a new VPS, select your `relay-1` snapshot, and select the 8GB RAM / 4 CPU plan ($40/mo on DigitalOcean).
 
-2. Select your SSH key, enter the hostname `forger-1` and add the `nos` tag. Adding the back-up plan for your forger is recommended.
+2. Select your SSH key, enter the hostname `forger-1` and add the `compendia` tag. Adding the back-up plan for your forger is recommended.
 
 3. Create the node and log in with SSH.
 

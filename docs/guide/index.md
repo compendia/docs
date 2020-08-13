@@ -121,3 +121,11 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 ### Community
 
 * [CompendiaValidators.com](https://compendiavalidators.com)
+
+---
+
+Compendia is proudly powered by the **ARK Core** blockchain framework.
+
+<a href="https://ark.io">
+<img src="./img/powered-ark.png" height="200">
+</a>

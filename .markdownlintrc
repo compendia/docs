@@ -2,5 +2,6 @@
   "no-inline-html": {
     "allowed_elements": ["video", "source"]
   },
-  "MD013": false
+  "MD013": false,
+  MD033: false
 }
