@@ -86,9 +86,9 @@ The initial block reward is **4.84** BIND for the top 5 validators, and **3.9 BI
 
 These two rewards result in an average fixed block reward of **4 BIND** per block.
 
-To maintain a balance in vote power distribution between voters and validators, **the block reward will be halved every approximate three years** until it reaches 0.03046875 (~0.03) BIND for the block reward and 0.0378125 (~0.038) BIND for the Top 5 validators' block reward.
+To maintain a balance in vote power distribution between voters and validators, **the block reward will be halved every approximate three years** until it reaches the average 1 BIND block reward.
 
-After year 17 the block rewards will remain at these fixed amounts, or until a new proposal is established and accepted by network consensus.
+After year 9, the block rewards will remain at these fixed amounts, until (if at all) a new proposal accepted by network consensus.
 
 The block reward reductions are visualized below (with Year 1 starting at the Genesis Block unix time):
 
@@ -97,11 +97,6 @@ The block reward reductions are visualized below (with Year 1 starting at the Ge
 | 1-3   | 3.9          | 4.84         | 4       |
 | 4-6   | 1.95         | 2.42         | 2       |
 | 7-9   | 0.975        | 1.21         | 1       |
-| 10-12 | 0.4875       | 0.605        | 0.5     |
-| 13-15 | 0.24375      | 0.3025       | 0.25    |
-| 16-18 | 0.121875     | 0.15125      | 0.125   |
-| 19-21 | 0.0609375    | 0.075625     | 0.0625  |
-| 22-24 | 0.03046875   | 0.0378125    | 0.03125 |
 
 ## Transaction Fees
 To submit a transaction to the network, the sender must pay a **transaction fee**. Transaction fees help discourage network abuse and appropriately scale the incentive for validators to process any volume of transactions.
