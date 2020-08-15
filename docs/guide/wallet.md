@@ -44,7 +44,7 @@ To stake coins, make sure you're on the Stake panel:
 
 ![Mnemonic](./img/stake-panel.png)
 
-Enter the amount you want to stake (minimum 10,000 BIND for mainnet), and the duration.
+Enter the amount you want to stake (minimum 5,000 BIND for mainnet), and the duration.
 
 You can review how your stake will increase your vote power under **Details**.
 
