@@ -77,7 +77,7 @@ Each duration will multiply your stake's vote power by a certain amount:
   
  * **Release:** After your stake passes its duration, it will be *released*. A *released stake* grants half the bonus vote power, but you can redeem it at any time. This means you still benefit from the stake, but are also free to move or re-stake your coins at any time. 
   
- * **Redeemed:** If you redeem a released stake, all your staked BIND will return to your wallet. Each previously staked coin will represent 1 vote power again.
+ * **Redeemed:** If you redeem a released stake, all your staked BIND will return to your wallet ~14 days after the redeem transaction is made. Each previously staked coin will represent 1 vote power again.
 
 
 ## Block Rewards & Halvings
