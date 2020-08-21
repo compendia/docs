@@ -5,7 +5,7 @@
 
 Follow us on [Twitter](https://twitter.com/Compendia_org) and then click the bell 🔔 to receive a notification when the swap goes online!
 
-Also follow our [Telegram Announcements](https://twitter.com/CompendiaAnn) channel for notifications.
+Also follow our [Telegram Announcements](https://t.me/CompendiaAnn) channel for notifications.
 ::::
 
 ## Video
