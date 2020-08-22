@@ -13,7 +13,7 @@ You can also think of Compendia as the *Wikipedia of databases* for apps, servic
 ## BIND
 
 :::: tip
-You'll be able to swap NOS (a token on the NEO blockchain) to BIND at a 1:1 rate soon.
+You're able to [swap NOS](./token-swap.html) (a token on the NEO blockchain) to BIND at a 1:1 rate.
 
 You can get NOS at [Switcheo](https://switcheo.exchange/markets/NOS_NEO).
 
