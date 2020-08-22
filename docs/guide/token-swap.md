@@ -1,13 +1,5 @@
 # Token Swap (NOS to BIND)
 
-:::: warning
-**The token swap has not yet started.**
-
-Follow us on [Twitter](https://twitter.com/Compendia_org) and then click the bell 🔔 to receive a notification when the swap goes online!
-
-Also follow our [Telegram Announcements](https://twitter.com/CompendiaAnn) channel for notifications.
-::::
-
 ## Video
 
 For instructions on swapping your NOS (NEP5 tokens on the NEO blockchain) to Compendia's native coin BIND, watch the video below:
