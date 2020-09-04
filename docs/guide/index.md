@@ -46,7 +46,7 @@ See how the network's economy and the BIND coin work at the [Economy](./economy.
  This minimum can change in the future based on validator/holder consensus.
 ::::
 
- For example: 5,000 BIND normally represents 5,000 vote power. If you stake these BIND for 3 months, the vote power increases to 50,000 for that duration.
+ For example: 5,000 BIND normally represents 5,000 vote power. If you stake these BIND for 12 months, the vote power increases to 50,000 for that duration.
 
 There are various features and levels with staking.
 
