@@ -101,7 +101,7 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 ### General
 
 * [Website](https://compendia.org)
-* [Github](https://github.com/compendia/core)
+* [Github](https://github.com/compendia)
 * [Documentation](https://docs.compendia.org)
 * [REST API Documentation](/api/)
 * [nOS Crypto Wallet](https://nos.io)
@@ -109,8 +109,15 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 ### Social
 
 * [Twitter](https://twitter.com/Compendia_org)
+* [Reddit](https://reddit.com/r/Compendia)
 * [Telegram Chat](https://t.me/Compendia)
 * [Telegram Announcements](https://t.me/CompendiaAnn)
+
+### Mainnet
+
+* [Explorer](https://bindscan.io)
+* [Wallet](https://wallet.compendia.org)
+* [API](https://api.compendia.org/api/v2)
 
 ### Testnet
 
@@ -120,7 +127,8 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 
 ### Community
 
-* [CompendiaValidators.com](https://compendiavalidators.com)
+* [Awesome Compendia](https://github.com/Bx64/Awesome-Compendia) - an awesome list of official and unofficial resources.
+* [CompendiaValidators.com](https://compendiavalidators.com) - a dashboard for reviewing validator proposals and blogs (for voters and validators).
 
 ---
 
