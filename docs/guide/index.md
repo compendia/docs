@@ -127,8 +127,8 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 
 ### Community
 
-* [Awesome Compendia](https://github.com/Bx64/Awesome-Compendia) - an awesome list of official and unofficial resources.
-* [CompendiaValidators.com](https://compendiavalidators.com) - a dashboard for reviewing validator proposals and blogs (for voters and validators).
+* [Awesome Compendia](https://github.com/Bx64/Awesome-Compendia) - an awesome list of official and unofficial resources maintained by validators **bfx** and **cryptology**.
+* [CompendiaValidators.com](https://compendiavalidators.com) - a dashboard for reviewing validator proposals and blogs (for voters and validators) by validator **the_bobbie_bunch**.
 
 ---
 
