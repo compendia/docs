@@ -164,6 +164,16 @@ To update a node to the latest Compendia node software version, simply log in to
  ```bash
  ccontrol update core
  ```
+ 
+ Followed by the following command for **forging nodes**:
+ ```bash
+ ccontrol restart core
+ ```
+ 
+ Or for relay nodes:
+ ```bash
+ ccontrol restart relay
+ ```
 
 Some updates may require you to reset your configuration as well. This will be announced in any update announcement. The process to reset your config is:
 
