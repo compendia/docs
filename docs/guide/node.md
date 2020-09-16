@@ -29,7 +29,7 @@ We're going to install your relay nodes first using the simple "core-control" pa
 
 Once we set up the first relay, we can create a snapshot and instantly create our second one.
 
-1. Create an account at a a VPS provider. If you don't know which provider to use, pick any from the following list: [Vultr](https://www.vultr.com/?ref=8408155-6G), [DigitalOcean](https://m.do.co/c/1506a50e2710), [Hetzner](https://console.hetzner.cloud/), [Amazon Web Services](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com).
+1. Create an account at a VPS provider. If you don't know which provider to use, pick any from the following list: [Vultr](https://www.vultr.com/?ref=8408155-6G), [DigitalOcean](https://m.do.co/c/1506a50e2710), [Hetzner](https://console.hetzner.cloud/), [Amazon Web Services](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com).
 
 **Important:** If you're signing up with a referral link, make sure to turn off your adblockers (e.g. Brave Browser can block your referral data from your session).
 
