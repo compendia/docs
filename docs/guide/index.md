@@ -129,7 +129,7 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 
 * [Awesome Compendia](https://github.com/Bx64/Awesome-Compendia) - an awesome list of official and unofficial resources maintained by validators **bfx** and **cryptomaniac**.
 * [CompendiaValidators.com](https://compendiavalidators.com) - a dashboard for reviewing validator proposals and blogs (for voters and validators) by validator **the_bobbie_bunch**.
-* [Bindfarm](https://bind.farm) - community-powered BIND yield farming. Join the wBIND-ETH liquidity pool on Uniswap and earn BIND in real-time.
+* [Bindfarm](https://bind.farm) - community-powered BIND yield farming. Join the wBIND-ETH liquidity pool on Uniswap and earn BIND in real-time, made by validator **bindfarmer**.
 
 ---
 
