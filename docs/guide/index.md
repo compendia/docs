@@ -39,7 +39,7 @@ See how the network's economy and the BIND coin work at the [Economy](./economy.
  You can **lock** BIND in you wallet for a period of time to increase you voting power without extra costs. This is called **staking**.
 
 :::: tip
- The **minimum** to stake will initially be **5,000 BIND**.
+ The **minimum** to stake is **5,000 BIND**.
 
  This minimum can change in the future based on validator/holder consensus.
 ::::
