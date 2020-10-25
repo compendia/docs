@@ -87,7 +87,7 @@ Now we can install the blockchain node software (enter one of the two commands b
 ./ccontrol.sh install core
 
 # OR: If you don't want your firewall (UFW) auto-configured (advanced users):
-./ccontrol install core advanced
+./ccontrol.sh install core advanced
 ```
 
 The installation will take a few minutes.
