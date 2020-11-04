@@ -14,7 +14,7 @@ You can also think of Compendia as the *Wikipedia of databases* for apps, servic
 
 :::: tip
 
-You can get wBIND for ETH - and then swap it to real BIND - in the [Web Wallet](https://wallet.compendia.org)'s DeFi panel.
+You can get wBIND for ETH - and then swap it to real BIND - in the [Web Wallet](https://wallet.compendia.org)'s DeFi panel (powered by [Uniswap](https://info.uniswap.org/pair/0x63aEDD08C61589A0f909eB5bB96B4d05245db631)).
 
 ::::
 
