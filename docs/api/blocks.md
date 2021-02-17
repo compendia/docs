@@ -115,8 +115,10 @@ curl https://api.nos.dev/api/v2/blocks?limit=2
 ```
 
 ```bash
-curl https://api.nos.dev/api/v2/blocks?height=7000042
+curl https://api.nos.dev/api/v2/blocks?height=1490000
 ```
+
+return something like
 
 ```javascript
 {
