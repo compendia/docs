@@ -118,7 +118,7 @@ curl https://api.nos.dev/api/v2/blocks?limit=2
 curl https://api.nos.dev/api/v2/blocks?height=1490000
 ```
 
-return something like
+returns something like
 
 ```javascript
 {
@@ -287,8 +287,10 @@ GET /api/v2/blocks/{id|height}
 curl https://api.nos.dev/api/v2/blocks/15447090855222023348
 ```
 
+(ID might be a base 16 expression)
+
 ```bash
-curl https://api.nos.dev/api/v2/blocks/7000042
+curl https://api.nos.dev/api/v2/blocks/1490000
 ```
 
 ```javascript
