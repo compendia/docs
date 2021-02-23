@@ -1,7 +1,7 @@
 # Overview
 
 :::: tip
-Compendia is built with the [ARK Core Framework](https://api.ark.dev). Therefore, the APIs follows relatively the same standard as **ARK Public Network**, with the exception of some unique features (e.g. staking).
+Compendia is built with the [ARK Core Framework](https://api.ark.dev). Therefore, with the exception of some unique features (e.g. staking), the APIs follows roughly the same standard as **ARK Public Network**.
 ::::
 
 This is the reference guide for the Public API. This API exposes all resources and data provided by a Compendia Core node; and is the preferred way of interacting with the Compendia network. Note that each node has its own internal blockchain and state, meaning it may have forked or be out of sync, causing queries to fail. Monitor your node by comparing it to different public nodes, such as the official [explorer](https://api.nos.dev/api/v2) to ensure you are in sync.

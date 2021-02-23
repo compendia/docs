@@ -1,6 +1,6 @@
 # Wallets
 
-Wallets are addresses containing, or previously having contained ARK. A wallet's public key may be unknown to the network, in that case, it is referred to as a `cold wallet`.
+Wallets are addresses containing, or previously having contained BIND. A wallet's public key may be unknown to the network, in that case, it is referred to as a `cold wallet`.
 
 ## List All Wallets
 
