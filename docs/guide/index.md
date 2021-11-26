@@ -121,7 +121,7 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 
 ### Testnet
 
-* [Explorer](https://explorer.nos.dev)
+* [Explorer](https://testnet.bindscan.io)
 * [Wallet](https://wallet.nos.dev)
 * [API](https://api.nos.dev/api/v2)
 
