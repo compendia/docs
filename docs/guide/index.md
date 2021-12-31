@@ -2,7 +2,7 @@
 
 ## What is Compendia
 
-Compendia is a **decentralized network** where anyone can create and contribute to **open databases** of any category *(e.g. apps, markets, cryptocurrencies, music, videos, games, etc)*. Apps and services can pull data from these databases for free.
+Compendia is a **Layer 2 Database Network** where anyone can create and contribute to **open databases** of any category *(e.g. apps, markets, cryptocurrencies, music, videos, games, etc)*. Apps and services can pull data from these databases for free.
 
 In the future, Ethereum smart contracts can also use this data (e.g. for DeFi applications).
 
