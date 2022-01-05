@@ -18,6 +18,7 @@ module.exports = {
                         'economy',
                         'wallet',
                         'validators',
+                        'databases',
                         'node',
                         'token-swap',
                         'bug-bounty'
