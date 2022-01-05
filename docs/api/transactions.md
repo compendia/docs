@@ -9,7 +9,7 @@ Creating the correct payload for a transaction is non-trivial, as it requires cr
 ### Endpoint
 
 ```
-POST /api/transactions
+POST /api/v2/transactions
 ```
 
 ### Body Parameters
@@ -266,7 +266,7 @@ For fine-grained searches, use the `search` endpoint. Note that unless you use s
 ### Endpoint
 
 ```
-POST /api/transactions/search
+POST /api/v2/transactions/search
 ```
 
 ### Example
@@ -431,7 +431,7 @@ GET /api/v2/transactions/fees
 ### Endpoint
 
 ```bash
-/api/transactions/schemas
+/api/v2/transactions/schemas
 ```
 
 ### Response

@@ -25,14 +25,12 @@ To operate a validator, you will need to run a [**forging node and relay nodes**
 
 *If you only want to launch relay nodes you can skip registering a validator.*
 
-1. Open [nOS Web Wallet](https://wallet.nos.dev)
+1. Open the [Compendia Web Wallet](https://wallet.compendia.org)
 
 2. Log in with your mnemonic key, or create a new wallet.
 **Make sure to store your mnemonic key in a safe and secure location!**
 
-3. Make sure you have at least 100 coins in your wallet. 
-If you're on the public testnet, you can click **Get coins** to get free coins (You can request free coins once every 3 days):
-![image|690x304](https://nos.chat/uploads/default/original/1X/4e7546d6a782a05aa081ccd7596fbc5cf2525dc1.png) 
+3. Make sure you have at least 252 coins in your wallet.
 
 4. On the right next to "Validators", click **Register Validator**.
 ![image|690x302](https://nos.chat/uploads/default/original/1X/8b464088391615a81e449698385c9b7ab32a958a.png) 
