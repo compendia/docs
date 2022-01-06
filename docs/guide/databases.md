@@ -22,7 +22,7 @@ If you need any help, [join our Discord](https://discord.gg/SJWMQaFVWe).
 
 4. In your Compendia testnet wallet, click **Tools** and **Register Database**. Paste the database URL and click **Submit**.
 
-5. Go to [Maestro](https://maestro.compendia.org) (a Compendia Database Admin UI), enter your Concierge API URL (your concierge server ip + port), API key, and Schema name.
+5. Go to [Maestro](http://maestro.compendia.org) (a Compendia Database Admin UI), enter your Concierge API URL (your concierge server ip + port), API key, and Schema name.
 
 6. Open the [DB Explorer](https://db-testnet.compendia.org) in another window, click your schema, and then **View** next to your database in the list.
 
