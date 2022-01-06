@@ -14,7 +14,7 @@ If you need any help, [join our Discord](https://discord.gg/SJWMQaFVWe).
 2. Click "Register Validator" and set a username.
 ![image|690x302](https://nos.chat/uploads/default/original/1X/8b464088391615a81e449698385c9b7ab32a958a.png) 
 
-1. Find a schema in the [Layer 2 Database Explorer](https://db-testnet.compendia.org/). The schema represents the database rules, such as the columns that it should have. If you want to use your own schema, read [Registering a Schema](#registering-a-schema).
+1. Find a schema in the [Layer 2 Database Explorer](http://db-testnet.compendia.org/). The schema represents the database rules, such as the columns that it should have. If you want to use your own schema, read [Registering a Schema](#registering-a-schema).
 
 2. Set up a local instance of [Concierge](https://github.com/compendia/concierge). Follow the readme and configure it use your schema and validator wallet passphrase. You'll need your configured API key later.
 
@@ -24,7 +24,7 @@ If you need any help, [join our Discord](https://discord.gg/SJWMQaFVWe).
 
 5. Go to [Maestro](http://maestro.compendia.org) (a Compendia Database Admin UI), enter your Concierge API URL (your concierge server ip + port), API key, and Schema name.
 
-6. Open the [DB Explorer](https://db-testnet.compendia.org) in another window, click your schema, and then **View** next to your database in the list.
+6. Open the [DB Explorer](http://db-testnet.compendia.org) in another window, click your schema, and then **View** next to your database in the list.
 
 7. Add a new entry in Maestro and watch it appear in your database in real-time.
 
