@@ -12,11 +12,6 @@ You can also think of Compendia as the *Wikipedia of databases* for apps, servic
 
 ## BIND
 
-:::: tip
-
-You can get wBIND for ETH - and then swap it to real BIND - in the [Web Wallet](https://wallet.compendia.org)'s DeFi panel (powered by [Uniswap](https://info.uniswap.org/pair/0x63aEDD08C61589A0f909eB5bB96B4d05245db631)).
-
-::::
 
 | Name | Symbol | Ticker |
 | ---- | ------ | ------ |
@@ -54,7 +49,7 @@ To find out more, see the [Economy - Staking](./economy.html#staking) section.
 
 You can **earn BIND** by participating in various ecosystem initiatives.
 
-Some possibilities for earning ("farming") BIND currently include:
+Some possibilities for obtaining BIND currently include:
 
 * **Staking and voting:** You can vote for a validator on Compendia and benefit from the services and rewards that they may offer to voters. Some validators choose to share a fixed percentage of BIND that they earn from block rewards with their voters. You can review the value proposals from validators by clicking on their names in the [Bindscan Block Explorer](https://bindscan.io) and reading their descriptions.
 
@@ -63,8 +58,6 @@ Some possibilities for earning ("farming") BIND currently include:
 * **Using Compendia Databases with your app:** Some validators are planning to grant BIND to developers who will build or extend apps and websites that integrate with Compendia's databases. You can join the [Telegram](https://t.me/Compendia) to present your app.
 
 * **Running a validator:** As a validator you can earn block rewards consistently. The top 47 validators earn 3.90 BIND per forged block, and the top 5 earn 4.84 BIND. An active validator forges one block approximately every 5 minutes.
-
-* **Yield Farming:** The community-powered [ßindfarm](https://bind.farm) app lets you farm BIND rewards by adding to the wBIND-ETH Liquidity Pool on Uniswap.
 
 *Disclaimer: Compendia is a decentralized blockchain network. The above examples for "Earning BIND" are community-contributed examples and initiatives. There are no inherent or guaranteed ways to earn or obtain BIND. Any of the above (and any future) initiatives may cease to exist at any time.*
 
@@ -124,12 +117,6 @@ The first application to integrate with Compendia is the nOS multi-blockchain wa
 * [Explorer](https://testnet.bindscan.io)
 * [Wallet](https://wallet.nos.dev)
 * [API](https://api.nos.dev/api/v2)
-
-### Community
-
-* [Awesome Compendia](https://github.com/Bx64/Awesome-Compendia) - an awesome list of official and unofficial resources maintained by validators **bfx** and **cryptomaniac**.
-* [CompendiaValidators.com](https://compendiavalidators.com) - a dashboard for reviewing validator proposals and blogs (for voters and validators) by validator **the_bobbie_bunch**.
-* [Bindfarm](https://bind.farm) - community-powered BIND yield farming. Join the wBIND-ETH liquidity pool on Uniswap and earn BIND in real-time, made by validator **bindfarmer**.
 
 ---
 
