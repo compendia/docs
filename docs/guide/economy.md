@@ -27,8 +27,6 @@ Validators may also choose to offer certain services **exclusively to their vote
 Examples of vote-weighted services include:
 
 * Prioritized **data entry** in the validator's Compendia databases.
-* Periodically **sharing a percentage of collected block rewards** and transaction fees with voters. 
-  * **For example**: a voter who represents 20% of a validator's votes (i.e. 20k power on a validator with 100k total votes), could receive 20% of the validator's periodic (voluntary) reward share.
 * Providing voters with **storage space** and bandwidth in Compendia's filesystem.
 * Online apps or games with **benefit levels** scaled to the voter's power (i.e. in-game credits).
 * Voter-exclusive **bounty programs** and competitions.
