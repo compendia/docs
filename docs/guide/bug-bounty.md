@@ -53,7 +53,7 @@ Security vulnerabilities that can cause moderate, temporary problems, but don’
 
 _Examples: slow down block propagation or the network, stop the network for a shorter period of time, making replay attacks under some restricted circumstances._
 
-### **Basic Vulnerabilities: $50 - $150**
+### **Basic Vulnerabilities: $50 - $1500**
 
 Security vulnerabilities that usually have no impact on the whole blockchain infrastructure, but can still pose problems for some specific things.
 
